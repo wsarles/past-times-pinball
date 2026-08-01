@@ -1,4 +1,4 @@
-const CACHE_NAME = "past-times-pinball-v1";
+const CACHE_NAME = "past-times-pinball-v2";
 const CORE_FILES = [
   "./",
   "./index.html",

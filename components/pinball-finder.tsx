@@ -33,6 +33,8 @@ const sortLabels: Record<SortKey, string> = {
   "type-desc": "Type: SS first",
 };
 
+const PINBALL_MAP_URL = "https://pinballmap.com/youngstown/?by_location_id=20266";
+
 function displayName(name: string) {
   if (name.endsWith(", The")) return `The ${name.slice(0, -5)}`;
   if (name.endsWith(", A")) return `A ${name.slice(0, -3)}`;
@@ -41,6 +43,10 @@ function displayName(name: string) {
 
 function compareText(a: string, b: string) {
   return a.localeCompare(b, undefined, { numeric: true, sensitivity: "base" });
+}
+
+function pinsideMachineUrl(game: Game) {
+  return `https://pinside.com/pinball/machine/?query=${encodeURIComponent(game.name)}`;
 }
 
 export function PinballFinder() {
@@ -138,11 +144,17 @@ export function PinballFinder() {
             <p className="eyebrow">Girard, Ohio · Machine index</p>
             <h1>Past Times<br />Pinball Finder</h1>
           </div>
-          <div className="collection-stamp">
-            <span className="starburst" aria-hidden="true">✷</span>
-            <strong>{games.length}</strong> machines
-            <span aria-hidden="true">•</span>
-            Updated {new Date(`${collection.sourceUpdated}T12:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+          <div className="hero-aside">
+            <div className="collection-stamp">
+              <span className="starburst" aria-hidden="true">✷</span>
+              <strong>{games.length}</strong> machines
+              <span aria-hidden="true">•</span>
+              Updated {new Date(`${collection.sourceUpdated}T12:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
+            </div>
+            <nav className="location-links" aria-label="Past Times location links">
+              <a href={PINBALL_MAP_URL} target="_blank" rel="noreferrer">Pinball Map <span aria-hidden="true">↗</span></a>
+              <a href={collection.source} target="_blank" rel="noreferrer">Pinside listing <span aria-hidden="true">↗</span></a>
+            </nav>
           </div>
         </header>
 
@@ -228,7 +240,16 @@ export function PinballFinder() {
               <li className="game-row" key={`${game.name}-${game.manufacturer}-${game.year}-${game.type}`}>
                 <span className="row-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
                 <span className="row-star" aria-hidden="true">✷</span>
-                <strong className="game-name">{displayName(game.name)}</strong>
+                <strong className="game-name">
+                  <a
+                    href={pinsideMachineUrl(game)}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label={`View ${displayName(game.name)} on Pinside`}
+                  >
+                    {displayName(game.name)} <span aria-hidden="true">↗</span>
+                  </a>
+                </strong>
                 <span className="game-maker">{game.manufacturer}</span>
                 <span className="game-year">{game.year}</span>
                 <span className={`type-badge ${game.type.toLowerCase()}`}>{game.type}</span>

@@ -112,8 +112,28 @@ h1 {
   white-space: nowrap;
 }
 
+.hero-aside { min-width: 0; }
 .collection-stamp strong { font-size: 1.25em; }
 .starburst { color: var(--burgundy); }
+
+.location-links {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 14px;
+}
+.location-links a {
+  padding: 9px 12px;
+  color: var(--burgundy);
+  background: var(--paper-light);
+  border: 1px solid var(--burgundy);
+  border-radius: 3px;
+  font-size: 14px;
+  font-weight: 800;
+  text-decoration: none;
+}
+.location-links a:first-child { color: var(--paper-light); background: var(--burgundy); }
+.location-links a:hover { box-shadow: 2px 2px 0 var(--mustard); transform: translate(-1px, -1px); }
 
 .search-section { margin-bottom: 24px; }
 
@@ -311,6 +331,9 @@ a:focus-visible {
 .row-number { color: var(--burgundy); font-size: 17px; font-weight: 900; font-variant-numeric: tabular-nums; }
 .row-star { color: var(--brick); font-size: 19px; }
 .game-name { min-width: 0; padding: 0 8px; font-size: 20px; line-height: 1.15; }
+.game-name a { color: inherit; text-decoration: none; }
+.game-name a span { color: var(--burgundy); font-size: .72em; }
+.game-name a:hover { color: var(--burgundy); text-decoration: underline; text-decoration-thickness: 2px; text-underline-offset: 3px; }
 .game-maker, .game-year { padding: 0 8px; font-size: 18px; }
 .game-year { font-variant-numeric: tabular-nums; }
 .type-badge {
@@ -356,6 +379,7 @@ footer a { color: var(--burgundy); font-weight: 800; }
   .hero { grid-template-columns: 1fr; gap: 20px; margin-bottom: 24px; }
   h1 { font-size: clamp(52px, 17vw, 82px); line-height: .9; }
   .collection-stamp { justify-content: flex-start; overflow: hidden; font-size: 15px; }
+  .location-links { justify-content: flex-start; flex-wrap: wrap; }
   .search-box { height: 60px; padding: 0 18px; gap: 18px; }
   .search-icon { width: 22px; height: 22px; flex-basis: 22px; border-width: 3px; }
   .filter-grid { grid-template-columns: 1fr 1fr; gap: 18px 12px; margin-top: 22px; }
