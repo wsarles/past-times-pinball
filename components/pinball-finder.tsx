@@ -33,8 +33,6 @@ const sortLabels: Record<SortKey, string> = {
   "type-desc": "Type: SS first",
 };
 
-const PINBALL_MAP_URL = "https://pinballmap.com/youngstown/?by_location_id=20266";
-
 function displayName(name: string) {
   if (name.endsWith(", The")) return `The ${name.slice(0, -5)}`;
   if (name.endsWith(", A")) return `A ${name.slice(0, -3)}`;
@@ -152,8 +150,8 @@ export function PinballFinder() {
               Updated {new Date(`${collection.sourceUpdated}T12:00:00`).toLocaleDateString("en-US", { month: "short", day: "numeric", year: "numeric" })}
             </div>
             <nav className="location-links" aria-label="Past Times location links">
-              <a href={PINBALL_MAP_URL} target="_blank" rel="noreferrer">Pinball Map <span aria-hidden="true">↗</span></a>
-              <a href={collection.source} target="_blank" rel="noreferrer">Pinside listing <span aria-hidden="true">↗</span></a>
+              <a href={collection.source} target="_blank" rel="noreferrer">Pinball Map <span aria-hidden="true">↗</span></a>
+              <a href={collection.pinsideSource} target="_blank" rel="noreferrer">Pinside listing <span aria-hidden="true">↗</span></a>
             </nav>
           </div>
         </header>
@@ -268,7 +266,7 @@ export function PinballFinder() {
 
         <footer>
           <p>{offlineReady ? "✓ Ready to use offline" : "Works offline after your first visit"}</p>
-          <p>Machine data from <a href={collection.source} target="_blank" rel="noreferrer">Past Times on Pinside</a>. Games may rotate for maintenance.</p>
+          <p>Machine data from <a href={collection.source} target="_blank" rel="noreferrer">Past Times on Pinball Map</a>. Games may rotate for maintenance.</p>
         </footer>
       </div>
     </main>

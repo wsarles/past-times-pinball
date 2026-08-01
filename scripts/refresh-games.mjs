@@ -1,7 +1,11 @@
 import { readFile, writeFile } from "node:fs/promises";
-import process from "node:process";
 
-const SOURCE = "https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/";
+const LOCATION_ID = 20266;
+const PINBALL_MAP_SOURCE = `https://pinballmap.com/youngstown/?by_location_id=${LOCATION_ID}`;
+const LOCATION_API = `https://pinballmap.com/api/v1/locations/${LOCATION_ID}.json`;
+const MACHINE_DETAILS_API = `https://pinballmap.com/api/v1/locations/${LOCATION_ID}/machine_details.json`;
+const PINSIDE_SOURCE = "https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/";
+const OPDB_TYPEAHEAD = "https://opdb.org/api/search/typeahead";
 const OUTPUT = new URL("../data/games.json", import.meta.url);
 
 function easternDate() {
@@ -15,93 +19,127 @@ function easternDate() {
   return `${value.year}-${value.month}-${value.day}`;
 }
 
-function decodeEntities(value) {
-  const named = { amp: "&", apos: "'", gt: ">", lt: "<", nbsp: " ", quot: '"' };
-  return value.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (_, entity) => {
-    if (entity[0] === "#") {
-      const hex = entity[1].toLowerCase() === "x";
-      return String.fromCodePoint(Number.parseInt(entity.slice(hex ? 2 : 1), hex ? 16 : 10));
-    }
-    return named[entity.toLowerCase()] ?? `&${entity};`;
-  });
+function normalizeName(name) {
+  return name
+    .toLocaleLowerCase()
+    .normalize("NFKD")
+    .replace(/^the\s+|,\s+the$/g, "")
+    .replace(/collector'?s edition/g, "ce")
+    .replace(/limited (?:rhapsody )?edition|limited version/g, "le")
+    .replace(/premium edition/g, "premium")
+    .replace(/special edition/g, "se")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
 }
 
-function toText(raw) {
-  if (!/<[a-z][\s\S]*>/i.test(raw)) return raw;
-  return decodeEntities(
-    raw
-      .replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi, "")
-      .replace(/<style\b[^>]*>[\s\S]*?<\/style>/gi, "")
-      .replace(/<(?:br|\/p|\/div|\/li|\/a|\/h[1-6])\b[^>]*>/gi, "\n")
-      .replace(/<[^>]+>/g, " "),
-  );
-}
-
-function parseGames(raw) {
-  const text = toText(raw).replace(/\r/g, "").replace(/\u00a0/g, " ");
-  const lines = text.split("\n").map((line) => line.replace(/\s+/g, " ").trim()).filter(Boolean);
-  const games = [];
-  const metadata = /^(EM|SS)\s+(.+),\s+(\d{4})\s+-\s+Added on\s+(\d{4}-\d{2}-\d{2})/;
-  const junk = /^(image|photo:|games list|there are|last updated|sign in|view biz|past times arcade)$/i;
-
-  for (let index = 1; index < lines.length; index += 1) {
-    const match = lines[index].match(metadata);
-    if (!match) continue;
-
-    let titleIndex = index - 1;
-    while (titleIndex >= 0 && junk.test(lines[titleIndex])) titleIndex -= 1;
-    const name = lines[titleIndex]?.replace(/^Image:\s*/i, "").trim();
-    if (!name) continue;
-
-    games.push({
-      name,
-      type: match[1],
-      manufacturer: match[2].trim(),
-      year: Number(match[3]),
-      added: match[4],
-    });
-  }
-
-  const unique = [...new Map(games.map((game) => [`${game.name}\u0001${game.type}\u0001${game.manufacturer}\u0001${game.year}`, game])).values()];
-  return unique.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
-}
-
-async function readSource(argument) {
-  if (argument === "-") {
-    let input = "";
-    process.stdin.setEncoding("utf8");
-    for await (const chunk of process.stdin) input += chunk;
-    return input;
-  }
-  if (argument) return readFile(argument, "utf8");
-
-  const response = await fetch(SOURCE, {
+async function fetchJson(url) {
+  const response = await fetch(url, {
     headers: {
-      accept: "text/html,application/xhtml+xml",
-      "user-agent": "Mozilla/5.0 Past-Times-Pinball-Finder/1.0",
+      accept: "application/json",
+      "user-agent": "Past-Times-Pinball-Finder/2.0",
     },
   });
-  if (!response.ok) {
-    throw new Error(`Pinside returned ${response.status}. Copy the page, then run: pbpaste | npm run refresh -- -`);
+  if (!response.ok) throw new Error(`${url} returned ${response.status}`);
+  return response.json();
+}
+
+async function readExistingCollection() {
+  try {
+    return JSON.parse(await readFile(OUTPUT, "utf8"));
+  } catch {
+    return { games: [] };
   }
-  return response.text();
+}
+
+async function lookupType(machine) {
+  const url = new URL(OPDB_TYPEAHEAD);
+  url.searchParams.set("q", machine.name);
+  const results = await fetchJson(url);
+  const exact = results.find((result) => result.id === machine.opdbId);
+  if (exact?.display) return ["lights", "reels"].includes(exact.display) ? "EM" : "SS";
+
+  if (/\(EM\)/i.test(machine.name) || machine.year < 1977) return "EM";
+  return "SS";
+}
+
+async function mapWithConcurrency(items, concurrency, callback) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      results[index] = await callback(items[index], index);
+    }
+  }
+
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
+  return results;
 }
 
 try {
-  const raw = await readSource(process.argv[2]);
-  const games = parseGames(raw);
-  if (games.length < 300) throw new Error(`Only found ${games.length} machines; refusing to replace the current list.`);
+  const [existing, location, machineDetails] = await Promise.all([
+    readExistingCollection(),
+    fetchJson(LOCATION_API),
+    fetchJson(MACHINE_DETAILS_API),
+  ]);
 
-  const updated = raw.match(/Last updated on\s+(\d{4}-\d{2}-\d{2})/i)?.[1] ?? easternDate();
+  const existingById = new Map(
+    existing.games
+      .filter((game) => game.pinballMapId)
+      .map((game) => [game.pinballMapId, game]),
+  );
+  const existingByNameAndYear = new Map(
+    existing.games.map((game) => [`${normalizeName(game.name)}\u0001${game.year}`, game]),
+  );
+  const detailsById = new Map(machineDetails.machines.map((machine) => [machine.id, machine]));
+  const activeMachines = location.location_machine_xrefs.filter((xref) => !xref.deleted_at);
+
+  const games = await mapWithConcurrency(activeMachines, 8, async (xref) => {
+    const details = detailsById.get(xref.machine_id);
+    if (!details) throw new Error(`Missing machine details for Pinball Map machine ${xref.machine_id}`);
+
+    const prior =
+      existingById.get(xref.machine_id) ??
+      existingByNameAndYear.get(`${normalizeName(details.name)}\u0001${details.year}`);
+    const machine = {
+      name: details.name,
+      manufacturer: details.manufacturer,
+      year: details.year,
+      added: xref.created_at.slice(0, 10),
+      pinballMapId: details.id,
+      opdbId: details.opdb_id,
+      ipdbId: details.ipdb_id,
+    };
+
+    return {
+      name: machine.name,
+      type: prior?.type ?? await lookupType(machine),
+      manufacturer: machine.manufacturer,
+      year: machine.year,
+      added: machine.added,
+      pinballMapId: machine.pinballMapId,
+      opdbId: machine.opdbId,
+      ipdbId: machine.ipdbId,
+    };
+  });
+
+  games.sort((a, b) => a.name.localeCompare(b.name, undefined, { numeric: true }));
+  if (games.length !== location.machine_count) {
+    throw new Error(`Pinball Map reports ${location.machine_count} machines but returned ${games.length}`);
+  }
+
   const payload = {
-    source: SOURCE,
-    sourceUpdated: updated,
+    source: PINBALL_MAP_SOURCE,
+    pinsideSource: PINSIDE_SOURCE,
+    sourceUpdated: location.date_last_updated,
     refreshedAt: easternDate(),
     games,
   };
 
   await writeFile(OUTPUT, `${JSON.stringify(payload, null, 2)}\n`);
-  console.log(`Updated data/games.json with ${games.length} machines.`);
+  console.log(`Updated data/games.json with ${games.length} machines from Pinball Map.`);
 } catch (error) {
   console.error(error instanceof Error ? error.message : error);
   process.exitCode = 1;

@@ -19,24 +19,12 @@ The static site is written to `docs/`. The included GitHub Actions workflow buil
 
 ## Refresh the machine list
 
-Try the direct refresh first:
+Refresh the list from the current [Past Times Pinball Map entry](https://pinballmap.com/youngstown/?by_location_id=20266):
 
 ```bash
 npm run refresh
 ```
 
-If Pinside blocks the automated request, open the [Past Times game list](https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/), select and copy the page, then run this on macOS:
-
-```bash
-pbpaste | npm run refresh -- -
-```
-
-You can also save the page as HTML or plain text and pass its filename:
-
-```bash
-npm run refresh -- ~/Downloads/past-times.html
-```
-
 After refreshing, run `npm run build:pages`, verify the count, and commit the updated `data/games.json`.
 
-Machine data is attributed and linked to Pinside in the site footer. Past Times notes that games may rotate off the floor for maintenance.
+Pinball Map is the machine-list source. Pinside remains linked for additional machine information. Past Times notes that games may rotate off the floor for maintenance.

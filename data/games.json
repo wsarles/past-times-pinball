@@ -1,2996 +1,4378 @@
 {
-  "source": "https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/",
-  "sourceUpdated": "2025-08-18",
+  "source": "https://pinballmap.com/youngstown/?by_location_id=20266",
+  "pinsideSource": "https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/",
+  "sourceUpdated": "2026-08-01",
   "refreshedAt": "2026-08-01",
   "games": [
-    {
-      "name": "\"300\"",
-      "type": "EM",
-      "manufacturer": "Gottlieb",
-      "year": 1975,
-      "added": "2023-05-25"
-    },
     {
       "name": "2 in 1",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3694,
+      "opdbId": "GRBWj-MQKlO",
+      "ipdbId": 2698
     },
     {
       "name": "4 Aces",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1970,
-      "added": "2024-11-28"
+      "added": "2024-11-27",
+      "pinballMapId": 3795,
+      "opdbId": "GrqK8-MJdoe",
+      "ipdbId": 928
+    },
+    {
+      "name": "4 Million BC",
+      "type": "EM",
+      "manufacturer": "Bally",
+      "year": 1970,
+      "added": "2023-05-31",
+      "pinballMapId": 1164,
+      "opdbId": "GRVZ8-M5RO0",
+      "ipdbId": 935
     },
     {
       "name": "4 Square",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1971,
-      "added": "2023-09-15"
+      "added": "2023-05-30",
+      "pinballMapId": 1032,
+      "opdbId": "GryO2-MD8v2",
+      "ipdbId": 940
+    },
+    {
+      "name": "300",
+      "type": "EM",
+      "manufacturer": "Gottlieb",
+      "year": 1975,
+      "added": "2023-05-30",
+      "pinballMapId": 1387,
+      "opdbId": "G5W1w-MkPy7",
+      "ipdbId": 2539
     },
     {
       "name": "Abra Ca Dabra",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1975,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Addams Family, The",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1992,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Adventures of Rocky and Bullwinkle and Friends, The",
-      "type": "SS",
-      "manufacturer": "Data East",
-      "year": 1993,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Af-Tor",
-      "type": "SS",
-      "manufacturer": "Wico",
-      "year": 1984,
-      "added": "2023-07-20"
+      "added": "2023-05-30",
+      "pinballMapId": 1263,
+      "opdbId": "GRpZ2-MkPyb",
+      "ipdbId": 2
     },
     {
       "name": "Airborne Avenger",
       "type": "SS",
       "manufacturer": "Atari",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 3146,
+      "opdbId": "G4dZZ-MKNzE",
+      "ipdbId": 33
     },
     {
-      "name": "Alien (Limited Version)",
+      "name": "Alice Cooper's Nightmare Castle",
       "type": "SS",
-      "manufacturer": "Pinball Brothers",
-      "year": 2021,
-      "added": "2023-08-25"
+      "manufacturer": "Spooky",
+      "year": 2018,
+      "added": "2026-03-03",
+      "pinballMapId": 3018,
+      "opdbId": "GrlXK-M9RV0",
+      "ipdbId": 6445
+    },
+    {
+      "name": "Alice's Adventures in Wonderland",
+      "type": "SS",
+      "manufacturer": "Dutch",
+      "year": 2025,
+      "added": "2025-11-04",
+      "pinballMapId": 4512,
+      "opdbId": "GX2vL-MW9en",
+      "ipdbId": null
     },
     {
       "name": "Alien Star",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1984,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Alpine Club",
-      "type": "EM",
-      "manufacturer": "Williams",
-      "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 2752,
+      "opdbId": "G4xwQ-MQpVO",
+      "ipdbId": 49
     },
     {
       "name": "Amazon Hunt",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1983,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 2333,
+      "opdbId": "GrJkp-M1rBN",
+      "ipdbId": 66
     },
     {
-      "name": "Argosy",
-      "type": "EM",
-      "manufacturer": "Williams",
-      "year": 1977,
-      "added": "2023-05-25"
+      "name": "America's Most Haunted",
+      "type": "SS",
+      "manufacturer": "Spooky",
+      "year": 2014,
+      "added": "2026-07-17",
+      "pinballMapId": 2091,
+      "opdbId": "G4ELZ-MQ27w",
+      "ipdbId": 6161
     },
     {
       "name": "Asteroid Annie and the Aliens",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1980,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Atarians, The",
-      "type": "SS",
-      "manufacturer": "Atari",
-      "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 1453,
+      "opdbId": "G59bo-MJPxj",
+      "ipdbId": 98
     },
     {
       "name": "Atlantis",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 1425,
+      "opdbId": "G48OE-MD0bk",
+      "ipdbId": 105
     },
     {
       "name": "Attack",
       "type": "SS",
       "manufacturer": "Playmatic",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 3609,
+      "opdbId": "GRWDp-MQ2yR",
+      "ipdbId": 2884
     },
     {
-      "name": "Attack from Mars",
+      "name": "Attack From Mars",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1995,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 643,
+      "opdbId": "G4do5-MDlN7",
+      "ipdbId": 3781
     },
     {
       "name": "Austin Powers",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2001,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 711,
+      "opdbId": "G43BW-M3dKV",
+      "ipdbId": 4504
+    },
+    {
+      "name": "Avatar: The Battle for Pandora (LE)",
+      "type": "SS",
+      "manufacturer": "Jersey Jack",
+      "year": 2024,
+      "added": "2026-07-14",
+      "pinballMapId": 4509,
+      "opdbId": "GbPxB-MkPol-A93vd",
+      "ipdbId": null
     },
     {
       "name": "Baby Pac-Man",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1982,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 782,
+      "opdbId": "G5Kvx-MQdpl",
+      "ipdbId": 125
     },
     {
-      "name": "Back to the Future: The Pinball",
+      "name": "Back to the Future",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1990,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 1151,
+      "opdbId": "GRpbW-MLXq2",
+      "ipdbId": 126
     },
     {
       "name": "Bad Cats",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1989,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 731,
+      "opdbId": "GrEBz-MBR3N",
+      "ipdbId": 127
     },
     {
       "name": "Bali-Hi",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1973,
-      "added": "2023-05-25"
+      "year": 1970,
+      "added": "2023-05-31",
+      "pinballMapId": 3699,
+      "opdbId": "GRDJx-MDvRo",
+      "ipdbId": 135
     },
     {
-      "name": "Ballyhoo",
+      "name": "Balls-A-Poppin",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1932,
-      "added": "2023-05-25"
+      "year": 1956,
+      "added": "2026-06-02",
+      "pinballMapId": 3594,
+      "opdbId": "G5KJW-MDEZn",
+      "ipdbId": 144
     },
     {
       "name": "Banzai Run",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1988,
-      "added": "2023-05-25"
+      "added": "2023-05-30",
+      "pinballMapId": 849,
+      "opdbId": "GR9lZ-MkP2j",
+      "ipdbId": 175
     },
     {
       "name": "Barracora",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1981,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Barry O's BBQ Challenge (Classic)",
-      "type": "SS",
-      "manufacturer": "American Pinball",
-      "year": 2024,
-      "added": "2024-04-11"
+      "added": "2023-05-31",
+      "pinballMapId": 2219,
+      "opdbId": "GRo7K-MQ4e3",
+      "ipdbId": 177
     },
     {
       "name": "Basketball",
       "type": "SS",
-      "manufacturer": "IDSA",
+      "manufacturer": "IDSC",
       "year": 1986,
-      "added": "2023-09-11"
+      "added": "2024-01-22",
+      "pinballMapId": 3812,
+      "opdbId": "GYWzL-Mx0x4",
+      "ipdbId": 5023
     },
     {
-      "name": "Batman (The Dark Knight)",
+      "name": "Batman 66 (Premium)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2016,
+      "added": "2025-06-20",
+      "pinballMapId": 2727,
+      "opdbId": "GRoz4-MjBV6",
+      "ipdbId": 6354
+    },
+    {
+      "name": "Batman: The Dark Knight",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2008,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 652,
+      "opdbId": "G4yVw-M85j8",
+      "ipdbId": 5307
     },
     {
       "name": "Baywatch",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1995,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 882,
+      "opdbId": "Grxvy-M4oZj",
+      "ipdbId": 2848
     },
     {
       "name": "Bazaar",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1966,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1078,
+      "opdbId": "GRKeO-MQ53E",
+      "ipdbId": 201
+    },
+    {
+      "name": "Beach Games",
+      "type": "EM",
+      "manufacturer": "Rally",
+      "year": 1962,
+      "added": "2025-11-07",
+      "pinballMapId": 4042,
+      "opdbId": "GRbnW-MJo59",
+      "ipdbId": 3908
+    },
+    {
+      "name": "Beat Time",
+      "type": "EM",
+      "manufacturer": "Williams",
+      "year": 1967,
+      "added": "2026-07-18",
+      "pinballMapId": 1210,
+      "opdbId": "GRwqD-MD0wX",
+      "ipdbId": 213
     },
     {
       "name": "Big Brave",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1974,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1037,
+      "opdbId": "GrXKb-MQ4OY",
+      "ipdbId": 234
     },
     {
       "name": "Big Game",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 730,
+      "opdbId": "G4jQw-MJ5rl",
+      "ipdbId": 249
     },
     {
       "name": "Big Guns",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 915,
+      "opdbId": "G4d8k-MJ5Z8",
+      "ipdbId": 250
     },
     {
       "name": "Bike Race",
       "type": "SS",
       "manufacturer": "Sleic",
       "year": 1992,
-      "added": "2024-09-12"
+      "added": "2024-09-12",
+      "pinballMapId": 3601,
+      "opdbId": "G4NzV-MLxYz",
+      "ipdbId": 4120
     },
     {
       "name": "Black Fever",
       "type": "SS",
       "manufacturer": "Playmatic",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3700,
+      "opdbId": "Grydq-MJNqv",
+      "ipdbId": 3645
     },
     {
       "name": "Black Gold",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1975,
-      "added": "2024-11-24"
+      "added": "2024-11-23",
+      "pinballMapId": 4192,
+      "opdbId": "G4qy6-MLvvd",
+      "ipdbId": 306
     },
     {
       "name": "Black Hole",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1981,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1059,
+      "opdbId": "G41yq-MQP65",
+      "ipdbId": 307
     },
     {
       "name": "Black Jack",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1960,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3702,
+      "opdbId": "G5vWo-MjBkB",
+      "ipdbId": 308
     },
     {
       "name": "Black Knight",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1980,
-      "added": "2023-08-25"
+      "added": "2023-07-27",
+      "pinballMapId": 1055,
+      "opdbId": "GrO7w-M9R03",
+      "ipdbId": 310
     },
     {
       "name": "Black Knight 2000",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1989,
-      "added": "2025-08-18"
+      "added": "2025-05-06",
+      "pinballMapId": 655,
+      "opdbId": "GrxPP-Ml91r",
+      "ipdbId": 311
     },
     {
       "name": "Black Rose",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1992,
-      "added": "2023-07-20"
-    },
-    {
-      "name": "Black Spider-Man",
-      "type": "SS",
-      "manufacturer": "Stern",
-      "year": 2007,
-      "added": "2023-05-25"
+      "added": "2023-07-20",
+      "pinballMapId": 732,
+      "opdbId": "G5vZd-MQpWZ",
+      "ipdbId": 313
     },
     {
       "name": "Blast Off",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1967,
-      "added": "2023-09-11"
+      "added": "2023-09-12",
+      "pinballMapId": 1466,
+      "opdbId": "GRBDj-MjBbn",
+      "ipdbId": 320
+    },
+    {
+      "name": "BMX",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1982,
+      "added": "2026-02-17",
+      "pinballMapId": 969,
+      "opdbId": "G48NB-MD384",
+      "ipdbId": 335
     },
     {
       "name": "Bo Bo",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1961,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Bobby Orr's Power Play",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1978,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3148,
+      "opdbId": "GrPYp-MLBNx",
+      "ipdbId": 336
     },
     {
       "name": "Bonanza",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1964,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Bone Busters Inc.",
-      "type": "SS",
-      "manufacturer": "Gottlieb",
-      "year": 1989,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1508,
+      "opdbId": "GR6NE-MLWd4",
+      "ipdbId": 345
     },
     {
       "name": "Bowl-O",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1970,
-      "added": "2023-05-25"
+      "year": 1969,
+      "added": "2023-05-31",
+      "pinballMapId": 1965,
+      "opdbId": "GRnK7-MQk0V",
+      "ipdbId": 368
     },
     {
       "name": "Bowling Queen",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1019,
+      "opdbId": "G4xYD-MD3nw",
+      "ipdbId": 367
     },
     {
       "name": "Bram Stoker's Dracula",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1993,
-      "added": "2024-11-24"
+      "added": "2024-11-23",
+      "pinballMapId": 659,
+      "opdbId": "G41do-MP3Py",
+      "ipdbId": 3072
     },
     {
       "name": "Bronco",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2284,
+      "opdbId": "GR6bk-Mz2N6",
+      "ipdbId": 388
     },
     {
       "name": "Buccaneer",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 864,
+      "opdbId": "G4lNn-ML1l5",
+      "ipdbId": 391
     },
     {
       "name": "Bullfight",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1965,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Bumper",
-      "type": "EM",
-      "manufacturer": "Bally",
-      "year": 1936,
-      "added": "2023-05-25"
+      "year": 1964,
+      "added": "2023-05-31",
+      "pinballMapId": 2631,
+      "opdbId": "G5pJQ-MQwE5",
+      "ipdbId": 3667
     },
     {
       "name": "Bus Stop",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 970,
+      "opdbId": "G41BE-MLbw7",
+      "ipdbId": 408
     },
     {
       "name": "Bushido",
       "type": "SS",
       "manufacturer": "Inder",
       "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3611,
+      "opdbId": "GrkVZ-MLnkl",
+      "ipdbId": 4481
     },
     {
       "name": "Butterfly",
       "type": "EM",
-      "manufacturer": "Segasa-Sonic",
+      "manufacturer": "Sonic",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2233,
+      "opdbId": "G5nJe-MrR8z",
+      "ipdbId": 410
+    },
+    {
+      "name": "Cabaret",
+      "type": "EM",
+      "manufacturer": "Williams",
+      "year": 1968,
+      "added": "2025-04-11",
+      "pinballMapId": 2980,
+      "opdbId": "G5nx7-MD10r",
+      "ipdbId": 415
     },
     {
       "name": "Cactus Canyon",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1998,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 714,
+      "opdbId": "G4835-Mb5eO",
+      "ipdbId": 4445
     },
     {
       "name": "Campus Queen",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1966,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2986,
+      "opdbId": "GRDQ1-MQYrl",
+      "ipdbId": 424
+    },
+    {
+      "name": "Can Can",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1955,
+      "added": "2025-11-28",
+      "pinballMapId": 3978,
+      "opdbId": "G4jk1-MDEKP",
+      "ipdbId": 3815
     },
     {
       "name": "Canasta 86",
       "type": "SS",
       "manufacturer": "Inder",
       "year": 1986,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3696,
+      "opdbId": "GrEpb-MQ2By",
+      "ipdbId": 4097
     },
     {
       "name": "Capersville",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1966,
-      "added": "2024-02-09"
+      "added": "2024-02-09",
+      "pinballMapId": 2725,
+      "opdbId": "GrXex-MQk7l",
+      "ipdbId": 431
     },
     {
-      "name": "Capt. Fantastic and The Brown Dirt Cowboy",
+      "name": "Captain Fantastic and The Brown Dirt Cowboy",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1976,
-      "added": "2023-06-16"
-    },
-    {
-      "name": "Captain Hook",
-      "type": "SS",
-      "manufacturer": "Game Plan",
-      "year": 1985,
-      "added": "2023-05-25"
+      "year": 1975,
+      "added": "2023-06-17",
+      "pinballMapId": 856,
+      "opdbId": "GRveZ-MNE38",
+      "ipdbId": 438
     },
     {
       "name": "Catacomb",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1981,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Cavalcade",
-      "type": "EM",
-      "manufacturer": "Stoner",
-      "year": 1935,
-      "added": "2024-01-24"
+      "added": "2023-05-31",
+      "pinballMapId": 2478,
+      "opdbId": "GRoQ6-MLx0X",
+      "ipdbId": 469
     },
     {
       "name": "Centaur II",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1983,
-      "added": "2024-03-01"
+      "added": "2024-03-01",
+      "pinballMapId": 1626,
+      "opdbId": "GrX7q-MD0yP",
+      "ipdbId": 477
     },
     {
       "name": "Centigrade 37",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1674,
+      "opdbId": "GrZ1k-MrRKZ",
+      "ipdbId": 480
     },
     {
       "name": "Champ",
       "type": "EM",
       "manufacturer": "Midway",
       "year": 1963,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Champion Pub",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1998,
-      "added": "2023-05-25"
+      "added": "2023-11-05",
+      "pinballMapId": 3790,
+      "opdbId": "G57eW-MLnel-AOpql",
+      "ipdbId": 4346
     },
     {
       "name": "Cheetah",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1429,
+      "opdbId": "GR6kW-Mo1W3",
+      "ipdbId": 500
     },
     {
       "name": "Cinema",
       "type": "EM",
       "manufacturer": "Chicago Coin",
       "year": 1976,
-      "added": "2024-01-18"
+      "added": "2023-12-18",
+      "pinballMapId": 2776,
+      "opdbId": "Grj7K-MOEXv",
+      "ipdbId": 513
+    },
+    {
+      "name": "Cirqus Voltaire",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1997,
+      "added": "2025-11-04",
+      "pinballMapId": 736,
+      "opdbId": "GRVjJ-MLq7W",
+      "ipdbId": 4059
     },
     {
       "name": "Close Encounters of the Third Kind",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1978,
-      "added": "2023-11-08"
+      "added": "2023-10-31",
+      "pinballMapId": 980,
+      "opdbId": "G4qvL-MJwVr",
+      "ipdbId": 536
     },
     {
       "name": "Clown",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1985,
-      "added": "2025-08-18"
+      "added": "2025-08-07",
+      "pinballMapId": 3244,
+      "opdbId": "G5Wjo-MJ9ll",
+      "ipdbId": 3024
     },
     {
-      "name": "Cobra",
-      "type": "SS",
-      "manufacturer": "Bell Games",
-      "year": 1987,
-      "added": "2023-05-25"
+      "name": "Colorama",
+      "type": "EM",
+      "manufacturer": "Keeney",
+      "year": 1963,
+      "added": "2025-12-18",
+      "pinballMapId": 4047,
+      "opdbId": "GRBjX-MLqz1",
+      "ipdbId": 544
     },
     {
       "name": "Comet",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1985,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 752,
+      "opdbId": "Gryd3-MLqjd",
+      "ipdbId": 548
     },
     {
       "name": "Corsario",
       "type": "SS",
       "manufacturer": "Inder",
       "year": 1989,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3704,
+      "opdbId": "G5LYj-MdE7E",
+      "ipdbId": 4090
     },
     {
       "name": "Corvette",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1994,
-      "added": "2023-10-05"
+      "added": "2023-05-31",
+      "pinballMapId": 729,
+      "opdbId": "GrjDz-MJKN6",
+      "ipdbId": 570
+    },
+    {
+      "name": "Cosmic Gunfight",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1982,
+      "added": "2026-06-25",
+      "pinballMapId": 2062,
+      "opdbId": "GRv7B-MLqPd",
+      "ipdbId": 571
     },
     {
       "name": "Cosmic Princess",
       "type": "SS",
-      "manufacturer": "Stern Electronics",
+      "manufacturer": "Allied Leisure",
       "year": 1979,
-      "added": "2024-10-26"
+      "added": "2024-10-26",
+      "pinballMapId": 3319,
+      "opdbId": "G4d9B-MJk65",
+      "ipdbId": 3967
     },
     {
       "name": "Counterforce",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1980,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Cover Girl",
-      "type": "EM",
-      "manufacturer": "Gottlieb",
-      "year": 1962,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3245,
+      "opdbId": "GRYPN-Mz2RE",
+      "ipdbId": 570
     },
     {
       "name": "Cow Poke",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1780,
+      "opdbId": "GRzow-M9R2d",
+      "ipdbId": 581
     },
     {
-      "name": "Criterium 75",
+      "name": "Criterium 75 (EM)",
       "type": "EM",
       "manufacturer": "Recel",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1262,
+      "opdbId": "G4Plz-MDz6D",
+      "ipdbId": 596
     },
     {
       "name": "Cybernaut",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1985,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 894,
+      "opdbId": "GR69j-MW93o",
+      "ipdbId": 614
+    },
+    {
+      "name": "Daisy May",
+      "type": "SS",
+      "manufacturer": "Gottlieb",
+      "year": 1954,
+      "added": "2025-04-29",
+      "pinballMapId": 1008,
+      "opdbId": "Gred6-Mz2Z8",
+      "ipdbId": 631
     },
     {
       "name": "Dancing Dolls",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1960,
-      "added": "2024-11-24"
+      "added": "2024-11-23",
+      "pinballMapId": 2516,
+      "opdbId": "G5nDL-M2YZ5",
+      "ipdbId": 634
     },
     {
       "name": "Dancing Lady",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1966,
-      "added": "2023-12-14"
+      "added": "2023-12-14",
+      "pinballMapId": 2378,
+      "opdbId": "G5DeY-MNEXX",
+      "ipdbId": 635
     },
     {
       "name": "Darts",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1960,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3705,
+      "opdbId": "G5WWb-MJNKN",
+      "ipdbId": 641
     },
     {
-      "name": "Defender",
+      "name": "Demolition Man",
       "type": "SS",
       "manufacturer": "Williams",
-      "year": 1982,
-      "added": "2023-05-25"
+      "year": 1994,
+      "added": "2026-06-07",
+      "pinballMapId": 670,
+      "opdbId": "G5bv3-MLW68",
+      "ipdbId": 662
+    },
+    {
+      "name": "Dennis Lillee's Howzat!",
+      "type": "SS",
+      "manufacturer": "Hankin",
+      "year": 1980,
+      "added": "2024-10-26",
+      "pinballMapId": 4346,
+      "opdbId": "GRzz6-MJN6K",
+      "ipdbId": 3909
     },
     {
       "name": "Derby Day",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1967,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2770,
+      "opdbId": "GR9DK-MQoy0",
+      "ipdbId": 667
     },
     {
       "name": "Devil Riders",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1984,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 841,
+      "opdbId": "G5DPP-MJKbp",
+      "ipdbId": 672
     },
     {
       "name": "Diamond Jack",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1967,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2377,
+      "opdbId": "GrlPj-MrR46",
+      "ipdbId": 676
     },
     {
       "name": "Diamond Lady",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1988,
-      "added": "2023-09-11"
+      "added": "2023-12-14",
+      "pinballMapId": 2349,
+      "opdbId": "G4jXW-MQdrN",
+      "ipdbId": 678
     },
     {
       "name": "Diner",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1990,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Dirty Harry",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1995,
-      "added": "2024-04-05"
-    },
-    {
-      "name": "Disco Fever",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1978,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 765,
+      "opdbId": "GRWBd-MLy5p",
+      "ipdbId": 681
     },
     {
       "name": "Discotek",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1965,
-      "added": "2023-10-05"
+      "added": "2023-10-05",
+      "pinballMapId": 3783,
+      "opdbId": "GRvlW-MLeXK",
+      "ipdbId": 687
     },
     {
       "name": "Doctor Who",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1992,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 661,
+      "opdbId": "G4x2Y-MQwwe",
+      "ipdbId": 738
     },
     {
       "name": "Dolly Parton",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1979,
-      "added": "2023-05-25"
+      "year": 1978,
+      "added": "2023-05-31",
+      "pinballMapId": 809,
+      "opdbId": "G43Yq-MJ7o4",
+      "ipdbId": 698
     },
     {
       "name": "Domino",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1968,
-      "added": "2023-11-08"
+      "added": "2023-10-31",
+      "pinballMapId": 2042,
+      "opdbId": "G4j8k-MJK5K",
+      "ipdbId": 701
     },
     {
       "name": "Dracula",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 867,
+      "opdbId": "G4Zl2-Ml90d",
+      "ipdbId": 728
     },
     {
       "name": "Dragon",
       "type": "EM",
       "manufacturer": "Interflip",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2624,
+      "opdbId": "G5Wn2-Mp4lp",
+      "ipdbId": 3887
     },
     {
       "name": "Dragonfist",
       "type": "SS",
       "manufacturer": "Stern Electronics",
-      "year": 1981,
-      "added": "2025-01-24"
+      "year": 1982,
+      "added": "2025-01-23",
+      "pinballMapId": 1070,
+      "opdbId": "GRQkJ-MDxpK",
+      "ipdbId": 731
+    },
+    {
+      "name": "Dungeons & Dragons: The Tyrant's Eye (Pro)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2025,
+      "added": "2026-03-17",
+      "pinballMapId": 4516,
+      "opdbId": "GK1Ej-MwNZr",
+      "ipdbId": null
+    },
+    {
+      "name": "Dungeons and Dragons",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1987,
+      "added": "2025-11-17",
+      "pinballMapId": 1410,
+      "opdbId": "G4JBP-MJ6jr",
+      "ipdbId": 743
     },
     {
       "name": "Earthshaker",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1989,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 702,
+      "opdbId": "GRw0r-Mp42p",
+      "ipdbId": 753
     },
     {
       "name": "Eight Ball",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 900,
+      "opdbId": "GrN7J-MJ78q",
+      "ipdbId": 760
     },
     {
-      "name": "Eight Ball Deluxe Limited Edition",
+      "name": "Eight Ball Deluxe (LE)",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1982,
-      "added": "2023-09-25"
+      "added": "2023-09-25",
+      "pinballMapId": 2083,
+      "opdbId": "G5KXk-MLqNz",
+      "ipdbId": 763
     },
     {
       "name": "Elektra",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1981,
-      "added": "2023-11-08"
+      "added": "2023-10-31",
+      "pinballMapId": 1155,
+      "opdbId": "GRVld-MDE3l",
+      "ipdbId": 778
     },
     {
       "name": "Elton John (CE)",
       "type": "SS",
       "manufacturer": "Jersey Jack",
       "year": 2023,
-      "added": "2024-04-05"
+      "added": "2024-04-05",
+      "pinballMapId": 3786,
+      "opdbId": "G2LWd-M4o3Y-AOwoL",
+      "ipdbId": null
     },
     {
       "name": "Elvira and the Party Monsters",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1989,
-      "added": "2023-09-11"
+      "added": "2023-09-12",
+      "pinballMapId": 656,
+      "opdbId": "Grlxp-MVKBW",
+      "ipdbId": 782
+    },
+    {
+      "name": "Elvira's House of Horrors (Premium)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2019,
+      "added": "2026-03-10",
+      "pinballMapId": 3179,
+      "opdbId": "GZVOd-MwNxZ-AOLoy",
+      "ipdbId": 6596
     },
     {
       "name": "Elvis",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2004,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 668,
+      "opdbId": "G4qbX-MJw5r",
+      "ipdbId": 4983
     },
     {
       "name": "Escape from the Lost World",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 963,
+      "opdbId": "G5oEz-MQ7Zw",
+      "ipdbId": 789
     },
     {
       "name": "Evel Knievel",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 783,
+      "opdbId": "G59wx-MLnZ3",
+      "ipdbId": 4499
+    },
+    {
+      "name": "Evil Dead",
+      "type": "SS",
+      "manufacturer": "Spooky",
+      "year": 2024,
+      "added": "2025-10-25",
+      "pinballMapId": 4515,
+      "opdbId": "GYWvw-MKNP4",
+      "ipdbId": null
     },
     {
       "name": "Evil Fight",
       "type": "SS",
       "manufacturer": "Playmatic",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3706,
+      "opdbId": "GRLbx-MLOn8",
+      "ipdbId": 3085
     },
     {
       "name": "Explorer",
-      "type": "SS",
+      "type": "EM",
       "manufacturer": "Nordamatic",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3707,
+      "opdbId": "G5VPX-MQjXJ",
+      "ipdbId": 4117
     },
     {
       "name": "Expressway",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1971,
-      "added": "2023-10-05"
+      "year": 1970,
+      "added": "2023-10-05",
+      "pinballMapId": 792,
+      "opdbId": "G4xK8-MQ5jK",
+      "ipdbId": 800
     },
     {
       "name": "F-14 Tomcat",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1987,
-      "added": "2023-07-20"
+      "added": "2023-07-14",
+      "pinballMapId": 751,
+      "opdbId": "GRY2O-MLWdy",
+      "ipdbId": 804
     },
     {
       "name": "Faces",
       "type": "EM",
-      "manufacturer": "Segasa-Sonic",
+      "manufacturer": "Sonic",
       "year": 1976,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Faeton",
-      "type": "SS",
-      "manufacturer": "Juegos Populares",
-      "year": 1985,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1173,
+      "opdbId": "GRQvx-MLv18",
+      "ipdbId": 806
     },
     {
       "name": "Farfalla",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1983,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2117,
+      "opdbId": "GRVw2-M4oWO",
+      "ipdbId": 824
     },
     {
       "name": "Fire!",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 890,
+      "opdbId": "G41Lo-MJp3y",
+      "ipdbId": 859
     },
     {
       "name": "Fireball",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1972,
-      "added": "2023-05-25"
+      "year": 1971,
+      "added": "2025-08-09",
+      "pinballMapId": 2236,
+      "opdbId": "G48ZN-Mb58O",
+      "ipdbId": 852
     },
     {
       "name": "Fireball II",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1981,
-      "added": "2023-05-25"
+      "year": 1980,
+      "added": "2023-05-31",
+      "pinballMapId": 1685,
+      "opdbId": "Gry7q-MwNE2",
+      "ipdbId": 854
     },
     {
       "name": "Firecracker",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1971,
-      "added": "2023-05-25"
+      "year": 1970,
+      "added": "2023-05-31",
+      "pinballMapId": 2779,
+      "opdbId": "G5bKj-MJobp",
+      "ipdbId": 855
     },
     {
       "name": "Firepower",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 924,
+      "opdbId": "G5VDd-MJpqO",
+      "ipdbId": 856
     },
     {
       "name": "Fish Tales",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1992,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 654,
+      "opdbId": "G5Wxd-MLxl3",
+      "ipdbId": 861
     },
     {
       "name": "FJ",
       "type": "SS",
       "manufacturer": "Hankin",
       "year": 1978,
-      "added": "2024-10-26"
+      "added": "2024-10-26",
+      "pinballMapId": 4297,
+      "opdbId": "GrlEV-ML872",
+      "ipdbId": 3627
     },
     {
       "name": "Flash",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1979,
-      "added": "2024-02-09"
-    },
-    {
-      "name": "Flipper",
-      "type": "EM",
-      "manufacturer": "Gottlieb",
-      "year": 1960,
-      "added": "2023-05-25"
+      "added": "2024-02-09",
+      "pinballMapId": 875,
+      "opdbId": "Grypn-MQdbe",
+      "ipdbId": 871
     },
     {
       "name": "Flipper Clown",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1962,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2338,
+      "opdbId": "GrJVE-MdEE8",
+      "ipdbId": 892
     },
     {
       "name": "Flipper Cowboy",
       "type": "EM",
-      "manufacturer": "Gottlieb",
+      "manufacturer": "Williams",
       "year": 1962,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2359,
+      "opdbId": "G4yl6-MQ9op",
+      "ipdbId": 893
     },
     {
       "name": "Flipper Fair",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1961,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2589,
+      "opdbId": "G4e9z-MD81o",
+      "ipdbId": 894
     },
     {
       "name": "Flipper Parade",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1961,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1018,
+      "opdbId": "G5nDZ-M9RoK",
+      "ipdbId": 895
     },
     {
       "name": "Flipper Pool",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1965,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Flying Aces",
-      "type": "EM",
-      "manufacturer": "Genco",
-      "year": 1958,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2339,
+      "opdbId": "GrxdD-MLOPO",
+      "ipdbId": 896
     },
     {
       "name": "Flying Carpet",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1972,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Flying Circus",
-      "type": "EM",
-      "manufacturer": "Gottlieb",
-      "year": 1961,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Flying Colors",
-      "type": "EM",
-      "manufacturer": "Gottlieb",
-      "year": 1935,
-      "added": "2024-11-24"
+      "added": "2023-05-31",
+      "pinballMapId": 1372,
+      "opdbId": "GrNPZ-MJNd0",
+      "ipdbId": 899
     },
     {
       "name": "Flying Turns",
       "type": "EM",
       "manufacturer": "Midway",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1314,
+      "opdbId": "G42xB-MrRXW",
+      "ipdbId": 910
     },
     {
       "name": "Foo Fighters (Premium)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2023,
-      "added": "2023-07-20"
+      "added": "2023-06-22",
+      "pinballMapId": 3674,
+      "opdbId": "GpeoL-MkPz1-A9Qlw",
+      "ipdbId": null
     },
     {
       "name": "Force II",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1981,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2304,
+      "opdbId": "G5Wpk-MDWpy",
+      "ipdbId": 916
     },
     {
-      "name": "Fore",
-      "type": "EM",
-      "manufacturer": "Bally",
-      "year": 1973,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Four Million B.C.",
-      "type": "EM",
-      "manufacturer": "Bally",
-      "year": 1971,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Four Stars",
-      "type": "EM",
+      "name": "Freddy: A Nightmare on Elm Street",
+      "type": "SS",
       "manufacturer": "Gottlieb",
-      "year": 1952,
-      "added": "2023-05-25"
+      "year": 1994,
+      "added": "2025-11-14",
+      "pinballMapId": 887,
+      "opdbId": "GRzB7-MD8ld",
+      "ipdbId": 948
     },
     {
       "name": "Free Fall",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1974,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2335,
+      "opdbId": "G4xlK-MDEKL",
+      "ipdbId": 949
     },
     {
       "name": "Freefall",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1981,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2492,
+      "opdbId": "G5W9p-MJw0B",
+      "ipdbId": 953
+    },
+    {
+      "name": "Friendship 7",
+      "type": "EM",
+      "manufacturer": "Williams",
+      "year": 1962,
+      "added": "2026-06-13",
+      "pinballMapId": 2510,
+      "opdbId": "GrxD0-MJjp8",
+      "ipdbId": 955
     },
     {
       "name": "Full House",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1966,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1781,
+      "opdbId": "G4EeX-MDl4j",
+      "ipdbId": 961
     },
     {
-      "name": "FunHouse",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1990,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Funhouse 2.0 (Rudy's Nightmare)",
+      "name": "Funhouse (Remake LE)",
       "type": "SS",
       "manufacturer": "Pedretti Gaming",
-      "year": 2021,
-      "added": "2024-01-19"
+      "year": 2024,
+      "added": "2025-04-24",
+      "pinballMapId": 3850,
+      "opdbId": "G5Dz7-MdEod-AR8Nb",
+      "ipdbId": null
     },
     {
       "name": "Future Queen",
       "type": "SS",
       "manufacturer": "Bell Games",
       "year": 1987,
-      "added": "2024-04-13"
+      "added": "2024-04-13",
+      "pinballMapId": 3830,
+      "opdbId": "GRpBV-MrRbE",
+      "ipdbId": 3114
     },
     {
       "name": "Galactic Tank Force (LE)",
       "type": "SS",
-      "manufacturer": "American Pinball",
+      "manufacturer": "American",
       "year": 2023,
-      "added": "2023-05-26"
+      "added": "2023-05-31",
+      "pinballMapId": 3687,
+      "opdbId": "Gj6PZ-Mb5z6-A9Lbd",
+      "ipdbId": null
     },
     {
       "name": "Galaxy",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 852,
+      "opdbId": "GrdDB-ML8xK",
+      "ipdbId": 980
     },
     {
       "name": "Gator",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1969,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2984,
+      "opdbId": "GRDQ1-MDRZ9",
+      "ipdbId": 987
     },
     {
       "name": "Gemini",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1978,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Getaway",
-      "type": "SS",
-      "manufacturer": "Allied Leisure",
-      "year": 1977,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Getaway: High Speed II, The",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1992,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2629,
+      "opdbId": "G5KPZ-MLBKd",
+      "ipdbId": 995
     },
     {
       "name": "Ghostbusters (Premium)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2016,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2570,
+      "opdbId": "GR9Nr-M5RxE",
+      "ipdbId": 6333
     },
     {
       "name": "Gigi",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1963,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Go-Cart",
-      "type": "EM",
-      "manufacturer": "Keeney",
-      "year": 1963,
-      "added": "2024-01-18"
+      "added": "2023-05-31",
+      "pinballMapId": 943,
+      "opdbId": "G43ek-MQd7N",
+      "ipdbId": 1003
     },
     {
       "name": "Godzilla (Premium)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2021,
-      "added": "2024-06-13"
+      "added": "2024-06-12",
+      "pinballMapId": 3416,
+      "opdbId": "GweeP-Ml9pZ-ARZoY",
+      "ipdbId": 6842
+    },
+    {
+      "name": "Gold Ball",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1983,
+      "added": "2025-06-10",
+      "pinballMapId": 839,
+      "opdbId": "Grjlx-MQkz3",
+      "ipdbId": 1024
     },
     {
       "name": "Gold Rush",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1966,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1325,
+      "opdbId": "Gr1PE-MDz9j",
+      "ipdbId": 1035
     },
     {
       "name": "Gold Strike",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2172,
+      "opdbId": "GrEZ5-MQ2q4",
+      "ipdbId": 1042
     },
     {
       "name": "Golden Arrow",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1397,
+      "opdbId": "G5WPp-MDBx9",
+      "ipdbId": 1044
     },
     {
       "name": "Goldeneye",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1996,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 954,
+      "opdbId": "G43wE-MQV5K",
+      "ipdbId": 3792
     },
     {
       "name": "Gorgar",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 902,
+      "opdbId": "G5zd6-MJVo4",
+      "ipdbId": 1062
     },
     {
       "name": "Grand Prix",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 793,
+      "opdbId": "G4O1L-MDW47",
+      "ipdbId": 1072
     },
     {
       "name": "Grand Tour",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2733,
+      "opdbId": "GrNx1-MJ6q9",
+      "ipdbId": 1081
     },
     {
       "name": "Granny and the Gators",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1983,
-      "added": "2023-05-25"
+      "year": 1984,
+      "added": "2023-05-31",
+      "pinballMapId": 1546,
+      "opdbId": "G4OKd-Mb51r",
+      "ipdbId": 1083
     },
     {
-      "name": "Guns N' Roses",
+      "name": "Guns 'N Roses",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1994,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 700,
+      "opdbId": "GrPKV-MyNoP",
+      "ipdbId": 1100
+    },
+    {
+      "name": "Hairy Singers",
+      "type": "EM",
+      "manufacturer": "Rally",
+      "year": 1966,
+      "added": "2025-04-11",
+      "pinballMapId": 4076,
+      "opdbId": "G5VeQ-MLObw",
+      "ipdbId": 3133
+    },
+    {
+      "name": "Hang Glider",
+      "type": "EM",
+      "manufacturer": "Bally",
+      "year": 1976,
+      "added": "2026-05-15",
+      "pinballMapId": 928,
+      "opdbId": "GRKpw-M5R0E",
+      "ipdbId": 1112
     },
     {
       "name": "Hardbody",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1987,
-      "added": "2023-12-14"
+      "added": "2023-12-14",
+      "pinballMapId": 933,
+      "opdbId": "GRbX3-M7ZK3",
+      "ipdbId": 1122
     },
     {
       "name": "Harlem Globetrotters On Tour",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1979,
-      "added": "2023-05-25"
+      "year": 1978,
+      "added": "2023-05-31",
+      "pinballMapId": 834,
+      "opdbId": "GRnwQ-M9R5d",
+      "ipdbId": 1125
     },
     {
-      "name": "Harley Davidson",
+      "name": "Harley-Davidson",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1999,
-      "added": "2023-10-05"
+      "added": "2023-10-05",
+      "pinballMapId": 773,
+      "opdbId": "G56lO-Mx00O",
+      "ipdbId": 4453
+    },
+    {
+      "name": "Harry Potter (CE)",
+      "type": "SS",
+      "manufacturer": "Jersey Jack",
+      "year": 2025,
+      "added": "2025-07-10",
+      "pinballMapId": 4539,
+      "opdbId": "GWyBj-MdEbK-AOPdq",
+      "ipdbId": null
     },
     {
       "name": "Harvest",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2993,
+      "opdbId": "GR90K-MdEl1",
+      "ipdbId": 1128
     },
     {
       "name": "Haunted House",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1982,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Heist",
-      "type": "SS",
-      "manufacturer": "Multimorphic",
-      "year": 2020,
-      "added": "2024-06-05"
+      "added": "2023-05-31",
+      "pinballMapId": 671,
+      "opdbId": "G5BP6-MJK4Z",
+      "ipdbId": 1133
     },
     {
       "name": "Hell",
       "type": "SS",
       "manufacturer": "Mondialmatic",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2024-02-21",
+      "pinballMapId": 3828,
+      "opdbId": "G2LEp-MZeYx",
+      "ipdbId": 5287
     },
     {
       "name": "Hercules",
       "type": "SS",
       "manufacturer": "Atari",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1195,
+      "opdbId": "G4NOx-MyNYZ",
+      "ipdbId": 1155
     },
     {
       "name": "Hi Dolly",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1965,
-      "added": "2023-09-11"
+      "added": "2023-09-12",
+      "pinballMapId": 3539,
+      "opdbId": "G5Ypy-MDxx7",
+      "ipdbId": 1158
     },
     {
       "name": "Hi-Score Pool",
       "type": "EM",
       "manufacturer": "Chicago Coin",
       "year": 1971,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2201,
+      "opdbId": "GrPZj-MOEY7",
+      "ipdbId": 1161
     },
     {
       "name": "High Speed",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1986,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 672,
+      "opdbId": "GRvzd-MLxV8",
+      "ipdbId": 1176
     },
     {
       "name": "Highways",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1961,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3711,
+      "opdbId": "G4j0D-MLeyd",
+      "ipdbId": 1178
     },
     {
       "name": "Hit the Deck",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1978,
-      "added": "2023-08-25"
+      "added": "2023-07-20",
+      "pinballMapId": 1039,
+      "opdbId": "GRoWo-MDzOZ",
+      "ipdbId": 1201
     },
     {
-      "name": "Honey",
+      "name": "Home Run",
       "type": "EM",
-      "manufacturer": "Williams",
-      "year": 1972,
-      "added": "2023-05-25"
+      "manufacturer": "Gottlieb",
+      "year": 1971,
+      "added": "2025-11-13",
+      "pinballMapId": 2505,
+      "opdbId": "GR612-MLyRe",
+      "ipdbId": 1224
+    },
+    {
+      "name": "Hook",
+      "type": "SS",
+      "manufacturer": "Data East",
+      "year": 1992,
+      "added": "2026-04-28",
+      "pinballMapId": 891,
+      "opdbId": "G42EQ-MJYpj",
+      "ipdbId": 1233
     },
     {
       "name": "Hootenanny",
       "type": "EM",
-      "manufacturer": "Bally",
+      "manufacturer": "Williams",
       "year": 1963,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3712,
+      "opdbId": "G4xo0-MJjOK",
+      "ipdbId": 1236
     },
     {
       "name": "Horror",
       "type": "SS",
-      "manufacturer": "N/A",
+      "manufacturer": "Pinball Shop",
       "year": 1985,
-      "added": "2023-05-25"
+      "added": "2024-02-21",
+      "pinballMapId": 3827,
+      "opdbId": "G4jyz-M5REB",
+      "ipdbId": 5118
     },
     {
       "name": "Horsefeathers",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1952,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3713,
+      "opdbId": "GRwzK-MDzWe",
+      "ipdbId": 1240
     },
     {
-      "name": "Hot Tip EM",
+      "name": "Hot Tip (EM)",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3684,
+      "opdbId": "Grep0-MDlv7",
+      "ipdbId": 1251
     },
     {
       "name": "Hot Wheels",
       "type": "SS",
-      "manufacturer": "American Pinball",
+      "manufacturer": "American",
       "year": 2020,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3257,
+      "opdbId": "GEL31-M61W3",
+      "ipdbId": 6661
+    },
+    {
+      "name": "Hotdoggin'",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1979,
+      "added": "2026-06-28",
+      "pinballMapId": 1868,
+      "opdbId": "GrENE-MD0dz",
+      "ipdbId": 1243
     },
     {
       "name": "House of Diamonds",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1978,
-      "added": "2024-05-11"
-    },
-    {
-      "name": "Howzat!",
-      "type": "SS",
-      "manufacturer": "Hankin",
-      "year": 1980,
-      "added": "2024-10-26"
+      "added": "2024-05-11",
+      "pinballMapId": 2620,
+      "opdbId": "GRVpL-MJjPR",
+      "ipdbId": 3165
     },
     {
       "name": "Humpty Dumpty",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1947,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1211,
+      "opdbId": "GyVVQ-MVKYX",
+      "ipdbId": 1254
     },
     {
-      "name": "Hyperball",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1981,
-      "added": "2023-05-25"
+      "name": "Hyde Park",
+      "type": "EM",
+      "manufacturer": "Gottlieb",
+      "year": 1966,
+      "added": "2026-06-07",
+      "pinballMapId": 4077,
+      "opdbId": "GrdYD-MQKxj",
+      "ipdbId": 1258
     },
     {
       "name": "Ice Show",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1966,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Incredible Hulk, The",
-      "type": "SS",
-      "manufacturer": "Gottlieb",
-      "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3637,
+      "opdbId": "GRnYX-ML0l2",
+      "ipdbId": 4778
     },
     {
       "name": "Indiana Jones",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2008,
-      "added": "2024-04-11"
+      "added": "2024-04-11",
+      "pinballMapId": 653,
+      "opdbId": "G4e1d-MJ5Bj",
+      "ipdbId": 5306
     },
     {
       "name": "Indiana Jones: The Pinball Adventure",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 651,
+      "opdbId": "G4xZy-MLno6",
+      "ipdbId": 1267
+    },
+    {
+      "name": "Iron Balls",
+      "type": "SS",
+      "manufacturer": "Unidesa",
+      "year": 1987,
+      "added": "2025-11-13",
+      "pinballMapId": 4426,
+      "opdbId": "G59LZ-MJo2o",
+      "ipdbId": 4426
     },
     {
       "name": "Iron Maiden",
       "type": "SS",
       "manufacturer": "Stern Electronics",
-      "year": 1982,
-      "added": "2023-05-25"
+      "year": 1981,
+      "added": "2023-05-31",
+      "pinballMapId": 2405,
+      "opdbId": "G4yZN-MDEP7",
+      "ipdbId": 1270
     },
     {
       "name": "Iron Maiden: Legacy of the Beast (Premium)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2018,
-      "added": "2024-04-05"
+      "added": "2024-04-05",
+      "pinballMapId": 2924,
+      "opdbId": "G4dOQ-MkPxr",
+      "ipdbId": 6556
     },
     {
-      "name": "Jack*Bot",
+      "name": "Jack-Bot",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1995,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 756,
+      "opdbId": "GRKOX-MLyrW",
+      "ipdbId": 3619
     },
     {
       "name": "Jacks Open",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2840,
+      "opdbId": "GrPpb-ML3pn",
+      "ipdbId": 1281
     },
     {
       "name": "James Bond 007 (LE)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2022,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3642,
+      "opdbId": "GQKyP-MP3OK-A1KoX",
+      "ipdbId": 6898
     },
     {
-      "name": "Jaws (LE)",
+      "name": "JAWS (LE)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2024,
-      "added": "2024-04-05"
+      "added": "2024-04-05",
+      "pinballMapId": 3801,
+      "opdbId": "GLWll-M1r8O-A1kx7",
+      "ipdbId": null
     },
     {
       "name": "Jet Spin",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 800,
+      "opdbId": "G4qzZ-M0oWR",
+      "ipdbId": 1290
+    },
+    {
+      "name": "Jim Henson’s Labyrinth",
+      "type": "SS",
+      "manufacturer": "Barrels of Fun",
+      "year": 2023,
+      "added": "2024-06-01",
+      "pinballMapId": 3784,
+      "opdbId": "GvBn8-Mz291",
+      "ipdbId": null
+    },
+    {
+      "name": "John Wick (Pro)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2024,
+      "added": "2026-03-25",
+      "pinballMapId": 3845,
+      "opdbId": "GQK1P-MW9pj",
+      "ipdbId": null
     },
     {
       "name": "Joker",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1969,
-      "added": "2023-05-25"
+      "year": 1968,
+      "added": "2023-05-31",
+      "pinballMapId": 3714,
+      "opdbId": "G5vjP-M1rWj",
+      "ipdbId": 3179
+    },
+    {
+      "name": "Jokerz",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1988,
+      "added": "2025-05-25",
+      "pinballMapId": 802,
+      "opdbId": "Gry3j-Mq1Oe",
+      "ipdbId": 1308
     },
     {
       "name": "Jolly Park",
       "type": "SS",
       "manufacturer": "Spinball",
       "year": 1995,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Joust",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1983,
-      "added": "2024-11-24"
+      "added": "2023-05-31",
+      "pinballMapId": 3321,
+      "opdbId": "G4jWq-MLyl0",
+      "ipdbId": 4618
     },
     {
       "name": "Joust",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1969,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2490,
+      "opdbId": "Grxk8-MJdwl",
+      "ipdbId": 1317
+    },
+    {
+      "name": "Joust",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1983,
+      "added": "2024-11-23",
+      "pinballMapId": 1196,
+      "opdbId": "G4den-MLRYK",
+      "ipdbId": 1316
     },
     {
       "name": "Judge Dredd",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 815,
+      "opdbId": "GRoZw-MLW3j",
+      "ipdbId": 1322
     },
     {
       "name": "Jumping Jack",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1973,
-      "added": "2023-09-15"
+      "added": "2023-09-15",
+      "pinballMapId": 1180,
+      "opdbId": "Gr2JJ-MOExx",
+      "ipdbId": 1329
     },
     {
       "name": "Jungle",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1960,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2609,
+      "opdbId": "GRL7N-Mq1dY",
+      "ipdbId": 1331
     },
     {
       "name": "Jungle Queen",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 876,
+      "opdbId": "GrNnr-MQ2Bw",
+      "ipdbId": 1340
     },
     {
       "name": "Junk Yard",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1996,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 695,
+      "opdbId": "GRLlj-MQZN8",
+      "ipdbId": 4014
+    },
+    {
+      "name": "Jurassic Park",
+      "type": "SS",
+      "manufacturer": "Data East",
+      "year": 1993,
+      "added": "2026-05-07",
+      "pinballMapId": 691,
+      "opdbId": "G4ZVB-MJ5lE",
+      "ipdbId": 1343
     },
     {
       "name": "Jurassic Park (Premium)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2019,
-      "added": "2023-09-11"
+      "added": "2023-09-12",
+      "pinballMapId": 3169,
+      "opdbId": "GK17D-MKNKd-A15Yn",
+      "ipdbId": 6574
     },
     {
       "name": "King Kool",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1972,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2300,
+      "opdbId": "GRBly-MQ9kl",
+      "ipdbId": 1371
     },
     {
       "name": "King Rex",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1970,
-      "added": "2024-11-24"
+      "added": "2024-11-23",
+      "pinballMapId": 3854,
+      "opdbId": "Gr3qw-MD1PK",
+      "ipdbId": 1376
     },
     {
       "name": "Kings & Queens",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1973,
+      "opdbId": "G4Ne1-ML3dR",
+      "ipdbId": 1381
     },
     {
-      "name": "KISS",
+      "name": "Kiss",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1979,
-      "added": "2023-09-11"
+      "year": 1978,
+      "added": "2023-06-17",
+      "pinballMapId": 785,
+      "opdbId": "G4jXr-MQ6kz",
+      "ipdbId": 1386
     },
     {
-      "name": "Knock Out",
-      "type": "EM",
-      "manufacturer": "Gottlieb",
-      "year": 1950,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Labyrinth",
+      "name": "L'Hexagone",
       "type": "SS",
-      "manufacturer": "Barrels of Fun",
-      "year": 2023,
-      "added": "2024-06-05"
+      "manufacturer": "K.C. Tabart",
+      "year": 1986,
+      "added": "2026-05-12",
+      "pinballMapId": 4409,
+      "opdbId": "GRBKZ-MyNN8",
+      "ipdbId": 3903
+    },
+    {
+      "name": "Lady Luck",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1986,
+      "added": "2026-04-09",
+      "pinballMapId": 1043,
+      "opdbId": "GR0nO-MdE2B",
+      "ipdbId": 1402
     },
     {
       "name": "Lady Robin Hood",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1948,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3354,
+      "opdbId": "GRVL2-MLl9Y",
+      "ipdbId": 1406
+    },
+    {
+      "name": "Landing on Venus",
+      "type": "EM",
+      "manufacturer": "Rally",
+      "year": 1965,
+      "added": "2025-11-16",
+      "pinballMapId": 4063,
+      "opdbId": "G4dPD-MDvqp",
+      "ipdbId": 3205
     },
     {
       "name": "Laser Ball",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1056,
+      "opdbId": "GRBXl-MLq9k",
+      "ipdbId": 1413
     },
     {
-      "name": "Lethal Weapon 3",
+      "name": "Le Grande 8",
       "type": "SS",
-      "manufacturer": "Data East",
-      "year": 1992,
-      "added": "2023-05-25"
+      "manufacturer": "K.C. Tabart",
+      "year": 1985,
+      "added": "2026-05-12",
+      "pinballMapId": 4395,
+      "opdbId": "G5bQq-MkPW7",
+      "ipdbId": 3916
     },
     {
       "name": "Liberty Belle",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1962,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1082,
+      "opdbId": "G4Xbk-MQ6d3",
+      "ipdbId": 1438
     },
     {
       "name": "Lite-A-Card",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1960,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3542,
+      "opdbId": "G4j03-MQpBy",
+      "ipdbId": 1453
     },
     {
-      "name": "Little League",
-      "type": "EM",
-      "manufacturer": "Midway",
-      "year": 1966,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Looney Tunes (Collectors Edition)",
+      "name": "Looney Tunes (CE)",
       "type": "SS",
-      "manufacturer": "Spooky Pinball",
-      "year": 2023,
-      "added": "2024-11-24"
+      "manufacturer": "Spooky",
+      "year": 2024,
+      "added": "2024-11-07",
+      "pinballMapId": 3804,
+      "opdbId": "GJ2K0-M85re-A1qdn",
+      "ipdbId": null
     },
     {
       "name": "Lortium",
       "type": "SS",
       "manufacturer": "Juegos Populares",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3614,
+      "opdbId": "GRW3o-MQkNr",
+      "ipdbId": 4104
     },
     {
       "name": "Lost World",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1978,
-      "added": "2023-05-25"
+      "year": 1977,
+      "added": "2023-05-31",
+      "pinballMapId": 778,
+      "opdbId": "G5pEk-MDWe4",
+      "ipdbId": 1476
     },
     {
       "name": "Lucky Hand",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1977,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Machine: Bride of Pinbot, The",
-      "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1991,
-      "added": "2024-08-31"
+      "added": "2023-05-31",
+      "pinballMapId": 2344,
+      "opdbId": "GrPpb-MLOZq",
+      "ipdbId": 1488
     },
     {
       "name": "Mad World",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2887,
+      "opdbId": "Grl21-MJwpB",
+      "ipdbId": 1504
     },
     {
       "name": "Magic Castle",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1984,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2025,
+      "opdbId": "G5v2B-MQ2xy",
+      "ipdbId": 1511
     },
     {
       "name": "Magic Circle",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3248,
+      "opdbId": "GRb9P-MQN0v",
+      "ipdbId": 1513
     },
     {
       "name": "Magic Town",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1967,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1736,
+      "opdbId": "G57xp-MDlj0",
+      "ipdbId": 1518
     },
     {
       "name": "Majorettes",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1023,
+      "opdbId": "GRwDD-Ml9Br",
+      "ipdbId": 1528
+    },
+    {
+      "name": "Mardi Gras",
+      "type": "EM",
+      "manufacturer": "Williams",
+      "year": 1962,
+      "added": "2025-09-21",
+      "pinballMapId": 4038,
+      "opdbId": "G5V0D-MQNl0",
+      "ipdbId": 1544
     },
     {
       "name": "Mars God of War",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1981,
-      "added": "2024-01-18"
+      "added": "2023-09-12",
+      "pinballMapId": 2433,
+      "opdbId": "GrNpY-MJrZw",
+      "ipdbId": 1549
     },
     {
       "name": "Mary Shelley's Frankenstein",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1995,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 803,
+      "opdbId": "GRB7E-MP3rR",
+      "ipdbId": 947
     },
     {
-      "name": "Mata Hari EM",
+      "name": "Mata Hari (EM)",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2994,
+      "opdbId": "G417e-Ml9ZE",
+      "ipdbId": 1557
     },
     {
-      "name": "Meg Aaton",
+      "name": "Medieval Madness",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1997,
+      "added": "2025-07-10",
+      "pinballMapId": 642,
+      "opdbId": "G5pe4-MePZv",
+      "ipdbId": 4032
+    },
+    {
+      "name": "Medusa",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1981,
+      "added": "2025-12-30",
+      "pinballMapId": 1495,
+      "opdbId": "G4xXQ-MDWW1",
+      "ipdbId": 1565
+    },
+    {
+      "name": "Megaaton",
       "type": "SS",
       "manufacturer": "Playmatic",
       "year": 1984,
-      "added": "2023-11-30"
-    },
-    {
-      "name": "Mephisto",
-      "type": "SS",
-      "manufacturer": "Unidesa",
-      "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-11-30",
+      "pinballMapId": 3796,
+      "opdbId": "G43DN-ME0kK",
+      "ipdbId": 3370
     },
     {
       "name": "Metal Man",
       "type": "SS",
       "manufacturer": "Inder",
       "year": 1992,
-      "added": "2023-09-11"
+      "added": "2023-09-12",
+      "pinballMapId": 3779,
+      "opdbId": "G4x3Y-MDznw",
+      "ipdbId": 4092
     },
     {
       "name": "Meteor",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 851,
+      "opdbId": "G5b38-MDqkx",
+      "ipdbId": 1580
     },
     {
       "name": "Mexico 86",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1986,
-      "added": "2024-05-11"
+      "added": "2024-05-13",
+      "pinballMapId": 3849,
+      "opdbId": "GrxeN-MD0ky",
+      "ipdbId": 3382
+    },
+    {
+      "name": "Mibs",
+      "type": "EM",
+      "manufacturer": "Gottlieb",
+      "year": 1969,
+      "added": "2025-02-13",
+      "pinballMapId": 1030,
+      "opdbId": "G56P2-MQKR6",
+      "ipdbId": 1589
     },
     {
       "name": "Middle Earth",
       "type": "SS",
       "manufacturer": "Atari",
       "year": 1978,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Monaco",
-      "type": "EM",
-      "manufacturer": "Segasa-Sonic",
-      "year": 1977,
-      "added": "2024-06-05"
+      "added": "2023-05-31",
+      "pinballMapId": 1362,
+      "opdbId": "G4OzV-MJN4z",
+      "ipdbId": 1590
     },
     {
       "name": "Moon Light",
       "type": "SS",
       "manufacturer": "Inder",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3716,
+      "opdbId": "Gr3ZV-MKN56",
+      "ipdbId": 4416
     },
     {
       "name": "Mr. & Mrs. Pac-Man",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1982,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1181,
+      "opdbId": "Gr2Dk-MQNy7",
+      "ipdbId": 1639
     },
     {
-      "name": "Mr. Black",
-      "type": "SS",
-      "manufacturer": "Taito",
-      "year": 1984,
-      "added": "2024-11-24"
-    },
-    {
-      "name": "Mundial 90",
-      "type": "SS",
-      "manufacturer": "Inder",
-      "year": 1990,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Mystery Score",
+      "name": "Music Man",
       "type": "EM",
-      "manufacturer": "Midway",
-      "year": 1965,
-      "added": "2023-05-25"
+      "manufacturer": "Williams",
+      "year": 1960,
+      "added": "2026-01-31",
+      "pinballMapId": 3341,
+      "opdbId": "Grlb3-MJ4z7",
+      "ipdbId": 1643
     },
     {
       "name": "Mystic Star",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1986,
-      "added": "2024-10-26"
+      "added": "2024-10-26",
+      "pinballMapId": 4413,
+      "opdbId": "G5QOw-M61dY",
+      "ipdbId": 3375
     },
     {
-      "name": "Nascar",
+      "name": "NASCAR",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2005,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "NBA Fastbreak",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1997,
-      "added": "2024-04-06"
+      "added": "2023-05-31",
+      "pinballMapId": 705,
+      "opdbId": "G5YWX-MQ4VW",
+      "ipdbId": 5093
     },
     {
       "name": "Nemesis",
       "type": "SS",
       "manufacturer": "Peyper",
       "year": 1986,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3615,
+      "opdbId": "GrOLe-MQK3d",
+      "ipdbId": 4880
     },
     {
       "name": "New York",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1289,
+      "opdbId": "GrlPK-MJkEl",
+      "ipdbId": 1673
     },
     {
-      "name": "Night Rider EM",
+      "name": "Night Rider (EM)",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 987,
+      "opdbId": "GryQj-MLRyd",
+      "ipdbId": 1677
+    },
+    {
+      "name": "Nine Ball",
+      "type": "SS",
+      "manufacturer": "Stern Electronics",
+      "year": 1980,
+      "added": "2025-07-03",
+      "pinballMapId": 1076,
+      "opdbId": "G4jjx-MDbz2",
+      "ipdbId": 1678
+    },
+    {
+      "name": "Ninja Eclipse (First Edition)",
+      "type": "SS",
+      "manufacturer": "Turner",
+      "year": 2024,
+      "added": "2025-04-17",
+      "pinballMapId": 3836,
+      "opdbId": "GZVXY-MyNOq-ARWE8",
+      "ipdbId": null
     },
     {
       "name": "North Star",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1376,
+      "opdbId": "GRV7Q-MJNez",
+      "ipdbId": 1683
     },
     {
-      "name": "Nudge it",
+      "name": "Nugent",
       "type": "SS",
-      "manufacturer": "Gottlieb",
-      "year": 1990,
-      "added": "2023-05-25"
+      "manufacturer": "Stern Electronics",
+      "year": 1978,
+      "added": "2025-07-06",
+      "pinballMapId": 825,
+      "opdbId": "G5VWL-MLRjl",
+      "ipdbId": 1687
     },
     {
       "name": "Orbit 1",
       "type": "SS",
       "manufacturer": "Hankin",
       "year": 1978,
-      "added": "2024-10-26"
+      "added": "2024-10-26",
+      "pinballMapId": 4358,
+      "opdbId": "G50jJ-ML09x",
+      "ipdbId": 3287
     },
     {
       "name": "Orbitor 1",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1982,
-      "added": "2023-05-25"
+      "added": "2026-07-09",
+      "pinballMapId": 869,
+      "opdbId": "Grx7Q-Mp45k",
+      "ipdbId": 1725
     },
     {
       "name": "Paddock",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1969,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3000,
+      "opdbId": "GR0W9-MD3xO",
+      "ipdbId": 1735
     },
     {
       "name": "Palooka",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1964,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Papillon",
-      "type": "SS",
-      "manufacturer": "Jeutel",
-      "year": 1984,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Par Golf",
-      "type": "EM",
-      "manufacturer": "Chicago Coin",
-      "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2593,
+      "opdbId": "G5pJd-MDE1Y",
+      "ipdbId": 1743
     },
     {
       "name": "Paragon",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1979,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Party Zone",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1991,
-      "added": "2023-08-25"
+      "added": "2023-05-31",
+      "pinballMapId": 897,
+      "opdbId": "GrXy3-ML0Ey",
+      "ipdbId": 1755
     },
     {
       "name": "Phantom of the Opera",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1990,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1247,
+      "opdbId": "Grq1D-MQokp",
+      "ipdbId": 1777
     },
     {
-      "name": "Pharaoh",
+      "name": "PIN-BOT",
       "type": "SS",
       "manufacturer": "Williams",
-      "year": 1981,
-      "added": "2023-05-25"
+      "year": 1986,
+      "added": "2024-04-19",
+      "pinballMapId": 723,
+      "opdbId": "G41Z8-MJKvP",
+      "ipdbId": 1796
     },
     {
       "name": "Pin-Up",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2341,
+      "opdbId": "GR6DZ-MYejd",
+      "ipdbId": 1789
     },
     {
-      "name": "Pinbot",
+      "name": "Pinball Champ",
       "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1986,
-      "added": "2024-04-19"
+      "manufacturer": "Zaccaria",
+      "year": 1983,
+      "added": "2025-08-24",
+      "pinballMapId": 4374,
+      "opdbId": "GrPdq-M9RRe",
+      "ipdbId": 1793
+    },
+    {
+      "name": "Pinball Magic",
+      "type": "SS",
+      "manufacturer": "Capcom",
+      "year": 1995,
+      "added": "2026-06-02",
+      "pinballMapId": 740,
+      "opdbId": "GrZnn-MJj46",
+      "ipdbId": 3596
     },
     {
       "name": "Pirates of the Caribbean",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2006,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 676,
+      "opdbId": "GR7ZX-MQ23b",
+      "ipdbId": 5163
     },
     {
       "name": "Pit Stop",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1968,
-      "added": "2023-08-25"
+      "added": "2023-08-07",
+      "pinballMapId": 3325,
+      "opdbId": "GrPkj-MLEqv",
+      "ipdbId": 1806
     },
     {
       "name": "Playboy",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1978,
-      "added": "2024-06-27"
+      "added": "2024-06-27",
+      "pinballMapId": 766,
+      "opdbId": "GrkOB-MJVvl",
+      "ipdbId": 1823
     },
     {
       "name": "Playtime",
       "type": "EM",
       "manufacturer": "Chicago Coin",
       "year": 1968,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3718,
+      "opdbId": "Gryk2-MvBqb",
+      "ipdbId": 3894
     },
     {
       "name": "Pleasure Isle",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2360,
+      "opdbId": "G4yEO-M4oqr",
+      "ipdbId": 1832
+    },
+    {
+      "name": "Pokémon (LE)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2026,
+      "added": "2026-06-19",
+      "pinballMapId": 4617,
+      "opdbId": "GV8wB-MRjKd-ARz2r",
+      "ipdbId": null
     },
     {
       "name": "Polar Explorer",
       "type": "SS",
       "manufacturer": "Taito",
       "year": 1983,
-      "added": "2024-11-24"
+      "added": "2025-01-30",
+      "pinballMapId": 4520,
+      "opdbId": "GZVnO-M2Yxo",
+      "ipdbId": 4588
     },
     {
       "name": "Pole Position",
       "type": "SS",
-      "manufacturer": "Segasa-Sonic",
+      "manufacturer": "Sonic",
       "year": 1986,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3719,
+      "opdbId": "Grlop-MLy9n",
+      "ipdbId": 3322
+    },
+    {
+      "name": "Pool Sharks",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1990,
+      "added": "2026-06-23",
+      "pinballMapId": 780,
+      "opdbId": "GR68o-M0o2O",
+      "ipdbId": 1848
     },
     {
       "name": "Pop-A-Card",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1972,
-      "added": "2023-12-14"
+      "added": "2023-12-14",
+      "pinballMapId": 1849,
+      "opdbId": "GRL9Q-MDl8Z",
+      "ipdbId": 1849
     },
     {
       "name": "Pulp Fiction (SE)",
       "type": "SS",
-      "manufacturer": "Chicago Gaming Co.",
+      "manufacturer": "Chicago Gaming",
       "year": 2023,
-      "added": "2024-04-19"
+      "added": "2024-04-18",
+      "pinballMapId": 3680,
+      "opdbId": "GoEkx-MdEzN-ARJQz",
+      "ipdbId": null
     },
     {
       "name": "Punchy the Clown",
       "type": "SS",
-      "manufacturer": "Alvin G. & Co",
+      "manufacturer": "Alvin G",
       "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1881,
+      "opdbId": "G4x2P-MnK03",
+      "ipdbId": 3508
     },
     {
       "name": "Punky Willy",
       "type": "SS",
       "manufacturer": "Joctronic",
       "year": 1986,
-      "added": "2024-10-31"
+      "added": "2024-10-10",
+      "pinballMapId": 4414,
+      "opdbId": "Grk62-Mo18j",
+      "ipdbId": 4101
     },
     {
-      "name": "Q*Bert's Quest",
+      "name": "Q-Bert's Quest",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1983,
-      "added": "2024-01-18"
+      "added": "2023-11-04",
+      "pinballMapId": 1979,
+      "opdbId": "Gr1qn-MYerP",
+      "ipdbId": 1885
     },
     {
-      "name": "Queen (Limited Rhapsody Edition)",
+      "name": "Queen (LE)",
       "type": "SS",
       "manufacturer": "Pinball Brothers",
       "year": 2022,
-      "added": "2023-08-25"
+      "added": "2023-08-10",
+      "pinballMapId": 3679,
+      "opdbId": "GELkO-Ml9zZ-AOjEb",
+      "ipdbId": null
     },
     {
       "name": "Quicksilver",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2985,
+      "opdbId": "GRBZl-Mb5Zq",
+      "ipdbId": 1895
     },
     {
       "name": "Radical!",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1990,
-      "added": "2024-01-24"
+      "added": "2024-01-25",
+      "pinballMapId": 677,
+      "opdbId": "G59ZY-MD8p7",
+      "ipdbId": 1904
     },
     {
-      "name": "Raid, The",
+      "name": "Red & Ted's Road Show",
       "type": "SS",
-      "manufacturer": "Playmatic",
-      "year": 1984,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Rapid Fire",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1982,
-      "added": "2024-04-05"
+      "manufacturer": "Williams",
+      "year": 1994,
+      "added": "2025-06-30",
+      "pinballMapId": 680,
+      "opdbId": "G4dWd-MJ2p6",
+      "ipdbId": 1972
     },
     {
       "name": "Rescue 911",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1994,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 810,
+      "opdbId": "G5pNW-MVK46",
+      "ipdbId": 1951
+    },
+    {
+      "name": "Revenge from Mars",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1999,
+      "added": "2026-06-25",
+      "pinballMapId": 678,
+      "opdbId": "G50Wr-MLeZP",
+      "ipdbId": 4446
     },
     {
       "name": "River Boat",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1287,
+      "opdbId": "GrP2Z-MjB8X",
+      "ipdbId": 1965
     },
     {
-      "name": "Road Show",
+      "name": "Robocop",
       "type": "SS",
-      "manufacturer": "Williams",
-      "year": 1994,
-      "added": "2023-05-25"
+      "manufacturer": "Data East",
+      "year": 1989,
+      "added": "2025-05-13",
+      "pinballMapId": 916,
+      "opdbId": "Grlxe-MJ916",
+      "ipdbId": 1976
     },
     {
       "name": "Robot",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1985,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2853,
+      "opdbId": "G5Wjk-MLvBr",
+      "ipdbId": 1977
     },
     {
       "name": "Rock 2500",
       "type": "SS",
       "manufacturer": "Playmatic",
       "year": 1985,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3701,
+      "opdbId": "Grydq-MLWR8",
+      "ipdbId": 3538
     },
     {
       "name": "Rocket III",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1967,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2632,
+      "opdbId": "G42XB-MJ93N",
+      "ipdbId": 1989
     },
     {
       "name": "Rocket Ship",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1958,
-      "added": "2024-11-24"
+      "added": "2024-11-23",
+      "pinballMapId": 1012,
+      "opdbId": "G4P3n-MYeon",
+      "ipdbId": 1990
     },
     {
       "name": "RockMakers",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1968,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Rocky Girl",
-      "type": "SS",
-      "manufacturer": "Giuliano Lodola",
-      "year": 1979,
-      "added": "2024-11-24"
+      "year": 1967,
+      "added": "2023-05-31",
+      "pinballMapId": 2714,
+      "opdbId": "G43zw-M4o2b",
+      "ipdbId": 1980
     },
     {
       "name": "Rodeo",
       "type": "EM",
       "manufacturer": "Midway",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3722,
+      "opdbId": "G5nNX-MJ950",
+      "ipdbId": 1994
     },
     {
       "name": "Roller Disco",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1414,
+      "opdbId": "G48qn-MDEl1",
+      "ipdbId": 2005
+    },
+    {
+      "name": "RollerCoaster Tycoon",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2002,
+      "added": "2026-06-02",
+      "pinballMapId": 679,
+      "opdbId": "Grybw-M5R0n",
+      "ipdbId": 4536
+    },
+    {
+      "name": "Rollergames",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1990,
+      "added": "2025-04-29",
+      "pinballMapId": 746,
+      "opdbId": "Gr1Ko-MnKyx",
+      "ipdbId": 2006
     },
     {
       "name": "Round Up",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1971,
-      "added": "2023-08-25"
+      "added": "2023-08-07",
+      "pinballMapId": 3327,
+      "opdbId": "G5vKP-M3d8p",
+      "ipdbId": 2026
     },
     {
       "name": "Royal Flush",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1976,
-      "added": "2023-12-14"
+      "added": "2023-12-14",
+      "pinballMapId": 822,
+      "opdbId": "GrEWx-MJNpE",
+      "ipdbId": 2035
     },
     {
       "name": "Royal King",
       "type": "EM",
-      "manufacturer": "R.M.G",
+      "manufacturer": "R.M.G.",
       "year": 1976,
-      "added": "2023-09-11"
-    },
-    {
-      "name": "Royal Rumble (WWF)",
-      "type": "SS",
-      "manufacturer": "Data East",
-      "year": 1994,
-      "added": "2023-05-25"
+      "added": "2024-02-21",
+      "pinballMapId": 3825,
+      "opdbId": "G4JND-MP3qK",
+      "ipdbId": 4736
     },
     {
       "name": "Rush (Pro)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2022,
-      "added": "2024-07-09"
+      "added": "2024-07-09",
+      "pinballMapId": 3431,
+      "opdbId": "G2Lkd-MNEdK",
+      "ipdbId": 6844
     },
     {
       "name": "Safe Cracker",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1996,
-      "added": "2024-04-05"
-    },
-    {
-      "name": "Safety Zone",
-      "type": "EM",
-      "manufacturer": "Scientific Machine Corporation",
-      "year": 1934,
-      "added": "2024-04-05"
+      "added": "2024-02-22",
+      "pinballMapId": 1207,
+      "opdbId": "GRBxq-MJpOP",
+      "ipdbId": 3782
     },
     {
       "name": "Scorpion",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 818,
+      "opdbId": "G4qQj-MD8XD",
+      "ipdbId": 2067
     },
     {
       "name": "Scramble",
       "type": "SS",
       "manufacturer": "Tecnoplay",
       "year": 1987,
-      "added": "2024-01-18"
+      "added": "2023-11-04",
+      "pinballMapId": 3789,
+      "opdbId": "G5p8V-MD0op",
+      "ipdbId": 3557
     },
     {
       "name": "Screech",
       "type": "SS",
       "manufacturer": "Inder",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3723,
+      "opdbId": "GPBBv-ME0x0",
+      "ipdbId": 3939
     },
     {
       "name": "Sea Hunt",
       "type": "EM",
       "manufacturer": "Allied Leisure",
       "year": 1972,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3328,
+      "opdbId": "GRoN2-MRj30",
+      "ipdbId": 2081
     },
     {
       "name": "Sea Ray",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1971,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Sea Scare",
-      "type": "SS",
-      "manufacturer": "Recel",
-      "year": 1978,
-      "added": "2023-05-25"
+      "year": 1970,
+      "added": "2023-05-31",
+      "pinballMapId": 1783,
+      "opdbId": "G4jBk-MLB1w",
+      "ipdbId": 2085
     },
     {
       "name": "Seawitch",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1980,
-      "added": "2024-10-26"
+      "added": "2024-10-26",
+      "pinballMapId": 820,
+      "opdbId": "GR6kB-MDz81",
+      "ipdbId": 2089
+    },
+    {
+      "name": "Secret Service",
+      "type": "SS",
+      "manufacturer": "Data East",
+      "year": 1988,
+      "added": "2025-04-11",
+      "pinballMapId": 2116,
+      "opdbId": "G4qqv-MDW0P",
+      "ipdbId": 2090
     },
     {
       "name": "Seven Winner",
       "type": "EM",
       "manufacturer": "Inder",
       "year": 1973,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3725,
+      "opdbId": "G5YxJ-MNEbl",
+      "ipdbId": 4407
     },
     {
       "name": "Shark",
       "type": "SS",
       "manufacturer": "Hankin",
       "year": 1980,
-      "added": "2024-10-26"
-    },
-    {
-      "name": "Shark",
-      "type": "SS",
-      "manufacturer": "Taito",
-      "year": 1982,
-      "added": "2024-11-24"
-    },
-    {
-      "name": "Sheba",
-      "type": "EM",
-      "manufacturer": "Bally",
-      "year": 1965,
-      "added": "2023-09-15"
+      "added": "2024-10-26",
+      "pinballMapId": 4355,
+      "opdbId": "Grjww-Mx0VR",
+      "ipdbId": 3339
     },
     {
       "name": "Ship Ahoy",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2033,
+      "opdbId": "G4lNn-MkPZ8",
+      "ipdbId": 2119
     },
     {
       "name": "Ship-Mates",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2741,
+      "opdbId": "G4jvD-MJKjd",
+      "ipdbId": 2120
     },
     {
-      "name": "Short-Sox",
-      "type": "EM",
-      "manufacturer": "Stoner",
-      "year": 1936,
-      "added": "2024-07-09"
-    },
-    {
-      "name": "Simpsons, The",
+      "name": "Show Boat",
       "type": "SS",
-      "manufacturer": "Data East",
-      "year": 1990,
-      "added": "2023-05-25"
+      "manufacturer": "Genco",
+      "year": 1957,
+      "added": "2025-04-17",
+      "pinballMapId": 4006,
+      "opdbId": "Gr2KY-MDzXP",
+      "ipdbId": 2134
     },
     {
       "name": "Sing Along",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1967,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 865,
+      "opdbId": "GrPkZ-MJZk7",
+      "ipdbId": 2160
     },
     {
-      "name": "Ski Jump",
+      "name": "Ski Jump (EM)",
       "type": "EM",
       "manufacturer": "Zaccaria",
       "year": 1978,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3726,
+      "opdbId": "GRzxO-MQP8j",
+      "ipdbId": 4686
     },
     {
       "name": "Skill Flight",
       "type": "SS",
       "manufacturer": "Bell Games",
       "year": 1986,
-      "added": "2023-05-25"
+      "added": "2023-11-04",
+      "pinballMapId": 3727,
+      "opdbId": "GRb7q-MDEn7",
+      "ipdbId": 3230
     },
     {
       "name": "Skill Pool",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1963,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1327,
+      "opdbId": "G4O66-MW96E",
+      "ipdbId": 2182
     },
     {
       "name": "Sky Divers",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3299,
+      "opdbId": "G4dVX-MLlBy",
+      "ipdbId": 2193
     },
     {
       "name": "Sky Jump",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1974,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1237,
+      "opdbId": "G4xlK-Mo163",
+      "ipdbId": 2195
     },
     {
       "name": "Skyrocket",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1971,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2987,
+      "opdbId": "GrNZ7-MDOjq",
+      "ipdbId": 2204
     },
     {
       "name": "Slap Stick",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1976,
-      "added": "2023-11-29"
+      "added": "2023-11-17",
+      "pinballMapId": 3330,
+      "opdbId": "GRvLv-M2YX5",
+      "ipdbId": 2207
     },
     {
       "name": "Sleic Pin-Ball",
       "type": "SS",
       "manufacturer": "Sleic",
       "year": 1994,
-      "added": "2023-05-25"
+      "added": "2024-01-22",
+      "pinballMapId": 3811,
+      "opdbId": "GD7Yl-Mp4zN",
+      "ipdbId": 4620
+    },
+    {
+      "name": "Slick Chick",
+      "type": "EM",
+      "manufacturer": "Gottlieb",
+      "year": 1963,
+      "added": "2026-05-30",
+      "pinballMapId": 1513,
+      "opdbId": "Gre8z-MLeK2",
+      "ipdbId": 2208
     },
     {
       "name": "Soccer Kings",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1982,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2092,
+      "opdbId": "GR0VJ-MDnEy",
+      "ipdbId": 2235
+    },
+    {
+      "name": "Solar Fire",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1981,
+      "added": "2026-07-21",
+      "pinballMapId": 1058,
+      "opdbId": "GRB26-MQPwX",
+      "ipdbId": 2238
     },
     {
       "name": "Solar Ride",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1381,
+      "opdbId": "GRDqo-MDbPx",
+      "ipdbId": 2239
     },
     {
-      "name": "Sound Stage",
-      "type": "EM",
-      "manufacturer": "Chicago Coin",
-      "year": 1976,
-      "added": "2023-05-25"
+      "name": "Sonic the Hedgehog (CE)",
+      "type": "SS",
+      "manufacturer": "Jersey Jack",
+      "year": 2026,
+      "added": "2026-07-12",
+      "pinballMapId": 4631,
+      "opdbId": "GvBPJ-M1rjr-ARBkl",
+      "ipdbId": null
     },
     {
       "name": "South Park",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1999,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 683,
+      "opdbId": "G4qbD-MQpxv",
+      "ipdbId": 4444
     },
     {
       "name": "Space Hawks",
       "type": "SS",
-      "manufacturer": "Bell Games",
+      "manufacturer": "Nuova",
       "year": 1986,
-      "added": "2024-06-13"
+      "added": "2026-06-28",
+      "pinballMapId": 1167,
+      "opdbId": "GR69j-MdEEB",
+      "ipdbId": 3621
     },
     {
       "name": "Space Hunt",
       "type": "SS",
       "manufacturer": "HEXA Pinball",
       "year": 2023,
-      "added": "2024-11-24"
-    },
-    {
-      "name": "Space Jam",
-      "type": "SS",
-      "manufacturer": "Sega",
-      "year": 1996,
-      "added": "2023-05-25"
+      "added": "2024-09-04",
+      "pinballMapId": 3848,
+      "opdbId": "GV8j1-M0oZe",
+      "ipdbId": null
     },
     {
       "name": "Space Mission",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 791,
+      "opdbId": "GRnX6-MQk8L",
+      "ipdbId": 2253
     },
     {
       "name": "Space Riders",
       "type": "SS",
       "manufacturer": "Atari",
       "year": 1978,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1418,
+      "opdbId": "GrdzE-MQ2E6",
+      "ipdbId": 2258
     },
     {
       "name": "Space Shuttle",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1984,
-      "added": "2023-05-25"
+      "added": "2023-09-12",
+      "pinballMapId": 1068,
+      "opdbId": "G4q3L-MKN50",
+      "ipdbId": 2260
+    },
+    {
+      "name": "Space Team",
+      "type": "SS",
+      "manufacturer": "Tecnoplay",
+      "year": 1988,
+      "added": "2025-06-21",
+      "pinballMapId": 4435,
+      "opdbId": "G4kyZ-MLR5r",
+      "ipdbId": 3258
+    },
+    {
+      "name": "Spanish Eyes",
+      "type": "EM",
+      "manufacturer": "Williams",
+      "year": 1972,
+      "added": "2025-09-19",
+      "pinballMapId": 797,
+      "opdbId": "GrOjX-MJ47n",
+      "ipdbId": 2265
     },
     {
       "name": "Spectrum",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1982,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 896,
+      "opdbId": "GRw7z-MJN9l",
+      "ipdbId": 2274
+    },
+    {
+      "name": "Speed Way",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1948,
+      "added": "2025-06-10",
+      "pinballMapId": 3905,
+      "opdbId": "G41WL-MQKn5",
+      "ipdbId": 2281
+    },
+    {
+      "name": "Spider-Man Black",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2007,
+      "added": "2023-05-31",
+      "pinballMapId": 1433,
+      "opdbId": "G5D94-MyNBN",
+      "ipdbId": 5650
     },
     {
       "name": "Spooksville",
       "type": "EM",
       "manufacturer": "Allied Leisure",
-      "year": 1973,
-      "added": "2023-10-05"
+      "year": 1972,
+      "added": "2023-10-05",
+      "pinballMapId": 2677,
+      "opdbId": "G4XBb-MD3Vd",
+      "ipdbId": 2298
     },
     {
       "name": "Spooky",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3516,
+      "opdbId": "Gr1j8-MDxzp",
+      "ipdbId": 3459
     },
     {
       "name": "Star Gazer",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1980,
-      "added": "2025-01-24"
+      "added": "2025-01-23",
+      "pinballMapId": 2713,
+      "opdbId": "GrZY2-ML0Rb",
+      "ipdbId": 2346
     },
     {
       "name": "Star God",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1980,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3311,
+      "opdbId": "G5vXk-M2Y8r",
+      "ipdbId": 3458
+    },
+    {
+      "name": "Star Light",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1984,
+      "added": "2025-04-24",
+      "pinballMapId": 3230,
+      "opdbId": "GRB86-MJ2nw",
+      "ipdbId": 2362
     },
     {
       "name": "Star Trek",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 907,
+      "opdbId": "GRVnd-MQZzx",
+      "ipdbId": 2355
     },
     {
-      "name": "Star Trek (LE)",
+      "name": "Star Trek (Enterprise LE)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2013,
-      "added": "2024-04-23"
+      "added": "2024-04-23",
+      "pinballMapId": 1888,
+      "opdbId": "Gryw4-MNEKn",
+      "ipdbId": 6046
     },
     {
       "name": "Star Trek: The Next Generation",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 684,
+      "opdbId": "GR6d8-M1rZd",
+      "ipdbId": 2357
     },
     {
       "name": "Star Wars",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1992,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 694,
+      "opdbId": "G420r-MLedz",
+      "ipdbId": 2358
     },
     {
-      "name": "Star Wars Episode I",
+      "name": "Star Wars Episode 1",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1999,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 708,
+      "opdbId": "GRL9r-MD34z",
+      "ipdbId": 4458
     },
     {
       "name": "Star Wars Trilogy",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1997,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 710,
+      "opdbId": "GrybN-MLl5X",
+      "ipdbId": 4054
     },
     {
       "name": "Stargate",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1995,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 685,
+      "opdbId": "G50pv-MdE6R",
+      "ipdbId": 2847
     },
     {
       "name": "Stars",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1978,
-      "added": "2023-09-29"
+      "added": "2023-09-29",
+      "pinballMapId": 855,
+      "opdbId": "GrXEW-MDEwr",
+      "ipdbId": 2366
     },
     {
       "name": "Stellar Wars",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1057,
+      "opdbId": "G4lLp-MQ5Xy",
+      "ipdbId": 2372
     },
     {
       "name": "Strange Science",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1986,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1537,
+      "opdbId": "G5nzJ-MJVX8",
+      "ipdbId": 2396
     },
     {
       "name": "Strange World",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1978,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2386,
+      "opdbId": "GRYox-MJV2B",
+      "ipdbId": 2397
     },
     {
       "name": "Strike Zone",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1970,
-      "added": "2024-01-18"
+      "added": "2023-05-31",
+      "pinballMapId": 2575,
+      "opdbId": "GRzYk-MDXRj",
+      "ipdbId": 2404
+    },
+    {
+      "name": "Strikes and Spares",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1977,
+      "added": "2025-04-11",
+      "pinballMapId": 847,
+      "opdbId": "GrleW-MYeod",
+      "ipdbId": 2406
     },
     {
       "name": "Subway",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1966,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Super Bowl",
-      "type": "SS",
-      "manufacturer": "Bell Games",
-      "year": 1984,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2354,
+      "opdbId": "GrEQy-Mx0yR",
+      "ipdbId": 2412
     },
     {
       "name": "Super Circus",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1957,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3554,
+      "opdbId": "G4kLJ-Mz2Xp",
+      "ipdbId": 2430
     },
     {
-      "name": "Super Flipper",
+      "name": "Super Mario Bros. Mushroom World",
       "type": "SS",
-      "manufacturer": "Chicago Coin",
-      "year": 1975,
-      "added": "2024-05-11"
+      "manufacturer": "Gottlieb",
+      "year": 1992,
+      "added": "2025-11-28",
+      "pinballMapId": 886,
+      "opdbId": "G7Zp0-MVKEX",
+      "ipdbId": 3427
     },
     {
       "name": "Super Star",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1972,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 877,
+      "opdbId": "GRV2y-M0ozp",
+      "ipdbId": 2446
     },
     {
       "name": "Super Star",
       "type": "EM",
       "manufacturer": "Chicago Coin",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3728,
+      "opdbId": "G5WKO-ML32x",
+      "ipdbId": 2447
     },
     {
       "name": "Superman",
       "type": "SS",
       "manufacturer": "Atari",
       "year": 1979,
-      "added": "2023-11-08"
+      "added": "2023-11-08",
+      "pinballMapId": 978,
+      "opdbId": "GR73N-MwN9x",
+      "ipdbId": 2454
     },
     {
       "name": "Supersonic",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 967,
+      "opdbId": "GRLXd-ME07p",
+      "ipdbId": 2455
     },
     {
       "name": "Sure Shot",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1976,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 805,
+      "opdbId": "GrqL6-Mx07k",
+      "ipdbId": 2457
     },
     {
       "name": "Surfing",
       "type": "EM",
-      "manufacturer": "Sega",
+      "manufacturer": "Sega Enterprises",
       "year": 1972,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2999,
+      "opdbId": "GrlWn-MYebl",
+      "ipdbId": 2467
     },
     {
-      "name": "Swords of Fury",
+      "name": "Swords Of Fury",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1988,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 750,
+      "opdbId": "GrPzV-MDxj7",
+      "ipdbId": 2486
     },
     {
       "name": "Tales from the Crypt",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 713,
+      "opdbId": "GR6wO-MDvzk",
+      "ipdbId": 2493
     },
     {
       "name": "Taxi",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1988,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Tee'd Off",
-      "type": "SS",
-      "manufacturer": "Gottlieb",
-      "year": 1993,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 779,
+      "opdbId": "GrN90-MJrnj",
+      "ipdbId": 2505
     },
     {
       "name": "Teenage Mutant Ninja Turtles",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1991,
-      "added": "2024-11-24"
+      "added": "2024-11-23",
+      "pinballMapId": 1239,
+      "opdbId": "Gr8xn-MKN66",
+      "ipdbId": 2509
     },
     {
       "name": "Terminator 2: Judgment Day",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1991,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 686,
+      "opdbId": "GR9Bx-MQkd5",
+      "ipdbId": 2524
     },
     {
       "name": "Terrific Lake",
       "type": "SS",
       "manufacturer": "Sportmatic",
-      "year": 1986,
-      "added": "2023-05-25"
+      "year": 1987,
+      "added": "2023-11-04",
+      "pinballMapId": 3744,
+      "opdbId": "GBL7d-Mo1zP",
+      "ipdbId": 5289
+    },
+    {
+      "name": "The Addams Family",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1992,
+      "added": "2025-07-06",
+      "pinballMapId": 687,
+      "opdbId": "G4ODR-MDXEy",
+      "ipdbId": 20
+    },
+    {
+      "name": "The Adventures of Rocky and Bullwinkle and Friends",
+      "type": "SS",
+      "manufacturer": "Data East",
+      "year": 1993,
+      "added": "2023-05-30",
+      "pinballMapId": 755,
+      "opdbId": "G5vnL-MJP3y",
+      "ipdbId": 23
+    },
+    {
+      "name": "The Atarians",
+      "type": "SS",
+      "manufacturer": "Atari",
+      "year": 1976,
+      "added": "2023-05-30",
+      "pinballMapId": 1050,
+      "opdbId": "Gry9N-MQYVj",
+      "ipdbId": 102
     },
     {
       "name": "The Bally Game Show",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1990,
-      "added": "2024-04-19"
+      "added": "2024-04-19",
+      "pinballMapId": 760,
+      "opdbId": "G5V92-MJ9XO",
+      "ipdbId": 985
+    },
+    {
+      "name": "The Champion Pub",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1998,
+      "added": "2023-05-31",
+      "pinballMapId": 665,
+      "opdbId": "G42k0-MQ6w9",
+      "ipdbId": 4358
     },
     {
       "name": "The Empire Strikes Back",
       "type": "SS",
       "manufacturer": "Hankin",
       "year": 1980,
-      "added": "2024-10-26"
+      "added": "2024-10-27",
+      "pinballMapId": 2721,
+      "opdbId": "GRVqP-MQrOr",
+      "ipdbId": 2868
     },
     {
-      "name": "The Flintstones",
+      "name": "The Getaway: High Speed II",
       "type": "SS",
-      "manufacturer": "Innovative Concepts",
-      "year": 1994,
-      "added": "2023-12-14"
+      "manufacturer": "Williams",
+      "year": 1992,
+      "added": "2023-05-31",
+      "pinballMapId": 660,
+      "opdbId": "Grx8Y-MKNe9",
+      "ipdbId": 1000
+    },
+    {
+      "name": "The Incredible Hulk",
+      "type": "SS",
+      "manufacturer": "Gottlieb",
+      "year": 1977,
+      "added": "2023-05-31",
+      "pinballMapId": 786,
+      "opdbId": "GRQW7-MLW5P",
+      "ipdbId": 1266
+    },
+    {
+      "name": "The Machine: Bride of Pin-Bot",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1991,
+      "added": "2024-08-31",
+      "pinballMapId": 737,
+      "opdbId": "GRpee-MePdR",
+      "ipdbId": 1502
+    },
+    {
+      "name": "The Party Zone",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1991,
+      "added": "2023-08-03",
+      "pinballMapId": 719,
+      "opdbId": "G5oBw-ML3Kw",
+      "ipdbId": 1764
+    },
+    {
+      "name": "The Raid",
+      "type": "SS",
+      "manufacturer": "Playmatic",
+      "year": 1984,
+      "added": "2023-05-31",
+      "pinballMapId": 3720,
+      "opdbId": "Grd1n-MDepV",
+      "ipdbId": 3511
     },
     {
       "name": "The Red Max",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1971,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3334,
+      "opdbId": "G57W3-MQdzl",
+      "ipdbId": 1935
+    },
+    {
+      "name": "The Shark",
+      "type": "EM",
+      "manufacturer": "A.M.I.",
+      "year": 1976,
+      "added": "2024-07-09",
+      "pinballMapId": 3781,
+      "opdbId": "GxvZB-MrRze",
+      "ipdbId": 4060
+    },
+    {
+      "name": "The Simpsons",
+      "type": "SS",
+      "manufacturer": "Data East",
+      "year": 1990,
+      "added": "2023-05-31",
+      "pinballMapId": 812,
+      "opdbId": "G5VBJ-MLy4l",
+      "ipdbId": 2158
     },
     {
       "name": "The Sopranos",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2005,
-      "added": "2024-04-05"
+      "added": "2024-04-05",
+      "pinballMapId": 645,
+      "opdbId": "G5WoB-MDyNZ",
+      "ipdbId": 5053
+    },
+    {
+      "name": "The Uncanny X-Men (LE)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2024,
+      "added": "2024-11-07",
+      "pinballMapId": 4508,
+      "opdbId": "G7ZEz-MyN3K-ARl3o",
+      "ipdbId": null
     },
     {
       "name": "The Walking Dead (Pro)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2014,
-      "added": "2024-08-11"
+      "added": "2024-08-11",
+      "pinballMapId": 2203,
+      "opdbId": "G5nz5-M3d38",
+      "ipdbId": 6155
     },
     {
       "name": "The Who's Tommy Pinball Wizard",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1994,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 721,
+      "opdbId": "GR6do-MLBq4",
+      "ipdbId": 2579
+    },
+    {
+      "name": "The Wiggler",
+      "type": "EM",
+      "manufacturer": "Bally",
+      "year": 1967,
+      "added": "2025-12-10",
+      "pinballMapId": 3315,
+      "opdbId": "G4x9D-MJjE5",
+      "ipdbId": 2777
     },
     {
       "name": "Theatre of Magic",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1995,
-      "added": "2023-08-25"
+      "added": "2023-07-14",
+      "pinballMapId": 688,
+      "opdbId": "G5BLE-MQ75Y",
+      "ipdbId": 2845
+    },
+    {
+      "name": "Thing",
+      "type": "SS",
+      "manufacturer": "Chicago Coin",
+      "year": 1951,
+      "added": "2025-04-11",
+      "pinballMapId": 3537,
+      "opdbId": "GRB6P-MDEed",
+      "ipdbId": 2531
     },
     {
       "name": "Thunderball",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1982,
-      "added": "2023-11-29"
+      "added": "2023-11-17",
+      "pinballMapId": 2286,
+      "opdbId": "G4J3k-MLnnX",
+      "ipdbId": 2554
     },
     {
       "name": "Tiger",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3729,
+      "opdbId": "GRw8o-Mz2lw",
+      "ipdbId": 2560
     },
     {
       "name": "Tiger Rag",
       "type": "SS",
       "manufacturer": "Bell Games",
       "year": 1984,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3313,
+      "opdbId": "GR67j-MLqwr",
+      "ipdbId": 3501
     },
     {
       "name": "Time 2000",
       "type": "SS",
       "manufacturer": "Atari",
       "year": 1977,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2711,
+      "opdbId": "G48Dx-MLleq",
+      "ipdbId": 2567
+    },
+    {
+      "name": "Time Fantasy",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1983,
+      "added": "2025-05-06",
+      "pinballMapId": 2597,
+      "opdbId": "G42Nz-MNEpl",
+      "ipdbId": 2563
     },
     {
       "name": "Time Machine",
       "type": "SS",
       "manufacturer": "Data East",
       "year": 1988,
-      "added": "2024-04-23"
+      "added": "2024-04-23",
+      "pinballMapId": 758,
+      "opdbId": "GR99Y-MJ9Zy",
+      "ipdbId": 2565
     },
     {
       "name": "Time Machine",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1983,
-      "added": "2023-09-07"
+      "added": "2023-09-07",
+      "pinballMapId": 2621,
+      "opdbId": "GRnoY-MQVwx",
+      "ipdbId": 3494
     },
     {
       "name": "Time Warp",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1979,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1049,
+      "opdbId": "G5wJo-MQdvv",
+      "ipdbId": 2568
     },
     {
       "name": "Tom Tom",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1963,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Top Hat",
-      "type": "EM",
-      "manufacturer": "Stoner",
-      "year": 1936,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3426,
+      "opdbId": "G4EjL-MQjVR",
+      "ipdbId": 2578
     },
     {
       "name": "Toy Story 4 (CE)",
       "type": "SS",
       "manufacturer": "Jersey Jack",
       "year": 2022,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3518,
+      "opdbId": "GJ2o0-MrRye-AO62p",
+      "ipdbId": 6951
     },
     {
       "name": "Trade Winds",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1962,
-      "added": "2023-11-29"
-    },
-    {
-      "name": "Trailer",
-      "type": "SS",
-      "manufacturer": "Playmatic",
-      "year": 1985,
-      "added": "2023-05-25"
+      "added": "2023-11-18",
+      "pinballMapId": 3791,
+      "opdbId": "G56Qx-MJNnO",
+      "ipdbId": 2621
     },
     {
       "name": "Trio",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1965,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3731,
+      "opdbId": "G5LeP-MBRbl",
+      "ipdbId": 2647
     },
     {
       "name": "Triple Action",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1974,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 771,
+      "opdbId": "GRzny-MJ96W",
+      "ipdbId": 2648
     },
     {
       "name": "TRON: Legacy (LE)",
       "type": "SS",
       "manufacturer": "Stern",
       "year": 2011,
-      "added": "2023-11-16"
+      "added": "2023-11-17",
+      "pinballMapId": 1129,
+      "opdbId": "GrkL5-MJoNN",
+      "ipdbId": 5707
     },
     {
       "name": "Twilight Zone",
       "type": "SS",
       "manufacturer": "Bally",
       "year": 1993,
-      "added": "2024-02-09"
+      "added": "2024-02-06",
+      "pinballMapId": 697,
+      "opdbId": "GrXzD-MjBPX",
+      "ipdbId": 2684
     },
     {
       "name": "Twin Win",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1974,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Twister",
-      "type": "SS",
-      "manufacturer": "Sega",
-      "year": 1996,
-      "added": "2023-05-25"
+      "year": 1971,
+      "added": "2023-05-31",
+      "pinballMapId": 979,
+      "opdbId": "G5Q9b-MJ5Zq",
+      "ipdbId": 2689
     },
     {
       "name": "TX-Sector",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1988,
-      "added": "2024-11-24"
+      "added": "2024-11-11",
+      "pinballMapId": 2421,
+      "opdbId": "GRLzj-MJPYK",
+      "ipdbId": 2699
     },
     {
       "name": "U-Boat 65",
       "type": "SS",
       "manufacturer": "Bell Games",
       "year": 1988,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3316,
+      "opdbId": "GRD67-Mo1Ol",
+      "ipdbId": 3736
     },
     {
       "name": "UFO-X",
       "type": "SS",
       "manufacturer": "Playmatic",
       "year": 1984,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3427,
+      "opdbId": "GrZb1-ML3le",
+      "ipdbId": 3347
     },
     {
-      "name": "Ultraman (Collectors Edition)",
-      "type": "SS",
-      "manufacturer": "Spooky Pinball",
-      "year": 2021,
-      "added": "2024-08-31"
-    },
-    {
-      "name": "Uncanny X-Men (LE), The",
-      "type": "SS",
-      "manufacturer": "Stern",
-      "year": 2024,
-      "added": "2024-11-24"
+      "name": "Underwater",
+      "type": "EM",
+      "manufacturer": "Recel",
+      "year": 1976,
+      "added": "2025-04-29",
+      "pinballMapId": 3619,
+      "opdbId": "GRWVw-MQkYB",
+      "ipdbId": 2702
     },
     {
       "name": "Vagabond",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1962,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3732,
+      "opdbId": "G4Pvp-MLBO0",
+      "ipdbId": 2713
     },
     {
       "name": "Vampire",
       "type": "EM",
       "manufacturer": "Bally",
-      "year": 1971,
-      "added": "2023-05-25"
+      "year": 1970,
+      "added": "2023-05-31",
+      "pinballMapId": 2796,
+      "opdbId": "GRYZK-MQp44",
+      "ipdbId": 2716
     },
     {
       "name": "Varkon",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1982,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 2248,
+      "opdbId": "G5Lvz-MQkvB",
+      "ipdbId": 2721
+    },
+    {
+      "name": "Venom (Pro)",
+      "type": "SS",
+      "manufacturer": "Stern",
+      "year": 2023,
+      "added": "2026-03-06",
+      "pinballMapId": 3738,
+      "opdbId": "G3EBl-Mq1zy",
+      "ipdbId": 7064
     },
     {
       "name": "Victory",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1987,
-      "added": "2023-12-14"
-    },
-    {
-      "name": "Viking",
-      "type": "SS",
-      "manufacturer": "Bally",
-      "year": 1980,
-      "added": "2024-02-01"
+      "added": "2023-12-14",
+      "pinballMapId": 1948,
+      "opdbId": "GrdBk-Mq18w",
+      "ipdbId": 2733
     },
     {
       "name": "Viking",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1960,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3514,
+      "opdbId": "G42lb-M7Z63",
+      "ipdbId": 2738
+    },
+    {
+      "name": "Viking",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1979,
+      "added": "2024-02-01",
+      "pinballMapId": 1305,
+      "opdbId": "G57kN-MQ71K",
+      "ipdbId": 2737
     },
     {
       "name": "Viper",
       "type": "SS",
       "manufacturer": "Stern Electronics",
       "year": 1981,
-      "added": "2023-08-25"
+      "added": "2023-12-03",
+      "pinballMapId": 2105,
+      "opdbId": "G5vXB-MLEve",
+      "ipdbId": 2739
     },
     {
-      "name": "Viper Night Drivin'",
+      "name": "Viper Night Drivin",
       "type": "SS",
       "manufacturer": "Sega",
       "year": 1998,
-      "added": "2024-06-05"
+      "added": "2024-06-05",
+      "pinballMapId": 858,
+      "opdbId": "G4Obw-ML83d",
+      "ipdbId": 4359
     },
     {
       "name": "Volcano",
       "type": "SS",
       "manufacturer": "Gottlieb",
       "year": 1981,
-      "added": "2023-08-25"
+      "added": "2023-08-03",
+      "pinballMapId": 2484,
+      "opdbId": "GrEzp-MDbW3",
+      "ipdbId": 2742
     },
     {
       "name": "Vortex",
       "type": "SS",
       "manufacturer": "Taito",
       "year": 1983,
-      "added": "2024-11-24"
-    },
-    {
-      "name": "Whiffle",
-      "type": "EM",
-      "manufacturer": "Automatic Industries",
-      "year": 1931,
-      "added": "2023-05-25"
+      "added": "2024-11-15",
+      "pinballMapId": 3121,
+      "opdbId": "GRwYo-M9RK0",
+      "ipdbId": 4576
     },
     {
       "name": "Whirlwind",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1990,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 720,
+      "opdbId": "GrE7e-MQ9N1",
+      "ipdbId": 2765
     },
     {
       "name": "White Water",
       "type": "SS",
       "manufacturer": "Williams",
       "year": 1993,
-      "added": "2024-10-26"
+      "added": "2024-10-26",
+      "pinballMapId": 689,
+      "opdbId": "GRQKz-MyNXz",
+      "ipdbId": 2768
     },
     {
-      "name": "Whiz Bang",
-      "type": "EM",
-      "manufacturer": "Lincoln Manufacturing",
-      "year": 1932,
-      "added": "2023-09-11"
+      "name": "WHO Dunnit",
+      "type": "SS",
+      "manufacturer": "Bally",
+      "year": 1995,
+      "added": "2025-06-24",
+      "pinballMapId": 704,
+      "opdbId": "G50kj-MDqpv",
+      "ipdbId": 3685
     },
     {
       "name": "Wild Life",
       "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1972,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Wild Schutz",
-      "type": "SS",
-      "manufacturer": "Geiger",
-      "year": 1980,
-      "added": "2024-06-05"
+      "added": "2023-05-31",
+      "pinballMapId": 1522,
+      "opdbId": "G5B0y-MJ26Y",
+      "ipdbId": 2784
     },
     {
       "name": "Winner",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1972,
-      "added": "2023-05-25"
-    },
-    {
-      "name": "Winner",
-      "type": "EM",
-      "manufacturer": "Midway",
-      "year": 1964,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 1035,
+      "opdbId": "G42nJ-ML3wj",
+      "ipdbId": 2792
     },
     {
       "name": "Wizard!",
       "type": "EM",
       "manufacturer": "Bally",
       "year": 1975,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 804,
+      "opdbId": "G4l8K-MJwXy",
+      "ipdbId": 2803
     },
     {
       "name": "Wolf Man",
       "type": "SS",
       "manufacturer": "Peyper",
       "year": 1987,
-      "added": "2023-05-25"
+      "added": "2023-05-31",
+      "pinballMapId": 3358,
+      "opdbId": "G4P0b-MD115",
+      "ipdbId": 4435
     },
     {
-      "name": "World's Fair Jigsaw",
-      "type": "EM",
-      "manufacturer": "Rockola",
-      "year": 1933,
-      "added": "2023-05-25"
+      "name": "World Cup",
+      "type": "SS",
+      "manufacturer": "Williams",
+      "year": 1978,
+      "added": "2025-06-10",
+      "pinballMapId": 1998,
+      "opdbId": "GrNqO-MRjzl",
+      "ipdbId": 2810
     },
     {
-      "name": "Xenon",
+      "name": "World Cup Soccer",
       "type": "SS",
       "manufacturer": "Bally",
-      "year": 1980,
-      "added": "2023-05-25"
+      "year": 1994,
+      "added": "2026-02-16",
+      "pinballMapId": 707,
+      "opdbId": "G42E2-MQP9e",
+      "ipdbId": 2811
     },
     {
-      "name": "Yukon Special",
+      "name": "WWF Royal Rumble",
+      "type": "SS",
+      "manufacturer": "Data East",
+      "year": 1994,
+      "added": "2023-05-31",
+      "pinballMapId": 930,
+      "opdbId": "G57y6-MLej6",
+      "ipdbId": 2820
+    },
+    {
+      "name": "X Force",
+      "type": "SS",
+      "manufacturer": "Tecnoplay",
+      "year": 1987,
+      "added": "2025-08-07",
+      "pinballMapId": 3162,
+      "opdbId": "GRzJ1-MkPEj",
+      "ipdbId": 3539
+    },
+    {
+      "name": "Yukon",
       "type": "EM",
       "manufacturer": "Williams",
       "year": 1971,
-      "added": "2023-05-25"
+      "added": "2023-10-04",
+      "pinballMapId": 2662,
+      "opdbId": "GR987-MQrrP",
+      "ipdbId": 2829
     },
     {
       "name": "Zankor",
       "type": "SS",
       "manufacturer": "Zaccaria",
       "year": 1986,
-      "added": "2023-09-11"
+      "added": "2023-09-12",
+      "pinballMapId": 3312,
+      "opdbId": "G5z71-MBRXz",
+      "ipdbId": 3531
     }
   ]
 }
