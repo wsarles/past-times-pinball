@@ -1,0 +1,18 @@
+{
+  "name": "Past Times Pinball Finder",
+  "short_name": "Pinball Finder",
+  "description": "Search, filter, and sort the Past Times Arcade pinball collection.",
+  "start_url": ".",
+  "scope": ".",
+  "display": "standalone",
+  "background_color": "#f4e8cf",
+  "theme_color": "#6f1d2c",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
