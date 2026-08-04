@@ -4,6 +4,12 @@ on:
   push:
     branches: [main]
   workflow_dispatch:
+    inputs:
+      refresh:
+        description: Refresh the machine list from Pinball Map before deploying
+        required: true
+        default: true
+        type: boolean
 
 permissions:
   contents: read
@@ -27,6 +33,11 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - name: Refresh machine list
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.refresh }}
+        run: npm run refresh
+        env:
+          PINBALL_MAP_API_TOKEN: ${{ secrets.PINBALL_MAP_API_TOKEN }}
       - run: npm run build:pages
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
