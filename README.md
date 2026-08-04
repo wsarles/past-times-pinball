@@ -44,8 +44,8 @@ The lineup, names, manufacturers, years, dates added, and external database IDs 
 
 Pinball Map does not provide EM/SS type, so the refresh classifies it locally:
 
-- Machines through 1975 are EM.
+- Machines through 1974 are EM.
 - Machines from 1980 onward are SS.
-- Machines from the 1976–1979 transition period must have an explicit Pinball Map ID entry in `data/machine-types.json`.
+- Machines from the 1975–1979 transition period must have an explicit Pinball Map ID entry in `data/machine-types.json`.
 
 A refresh fails rather than guesses when a newly added transition-era machine is missing from that file. Past Times notes that games may rotate off the floor for maintenance.
