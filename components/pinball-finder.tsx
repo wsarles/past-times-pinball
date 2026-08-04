@@ -266,7 +266,7 @@ export function PinballFinder() {
 
         <footer>
           <p>{offlineReady ? "✓ Ready to use offline" : "Works offline after your first visit"}</p>
-          <p>Machine data from <a href={collection.source} target="_blank" rel="noreferrer">Past Times on Pinball Map</a>. Games may rotate for maintenance.</p>
+          <p>Machine list from <a href={collection.source} target="_blank" rel="noreferrer">Past Times on Pinball Map</a>. EM/SS classifications are maintained locally. Games may rotate for maintenance.</p>
         </footer>
       </div>
     </main>
