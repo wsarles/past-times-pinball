@@ -19,12 +19,23 @@ The static site is written to `docs/`. The included GitHub Actions workflow buil
 
 ## Refresh the machine list
 
-Refresh the list from the current [Past Times Pinball Map entry](https://pinballmap.com/youngstown/?by_location_id=20266):
+Pinball Map requires an approved API token. Keep it outside the repository and use the environment variable `PINBALL_MAP_API_TOKEN`.
+
+### Refresh and deploy from GitHub
+
+1. In **Settings → Secrets and variables → Actions**, add a repository secret named `PINBALL_MAP_API_TOKEN`.
+2. Open **Actions → Deploy GitHub Pages → Run workflow**.
+3. Leave **Refresh the machine list** enabled and run it.
+
+The workflow refreshes from the current [Past Times Pinball Map entry](https://pinballmap.com/youngstown/?by_location_id=20266), builds the site, and deploys it. It has read-only repository access, so the refreshed files are not committed back to `main`.
+
+### Refresh locally
 
 ```bash
-npm run refresh
+PINBALL_MAP_API_TOKEN="your-token" npm run refresh
+npm run build:pages
 ```
 
-After refreshing, run `npm run build:pages`, verify the count, and commit the updated `data/games.json`.
+Verify the machine count, then commit the updated `data/games.json` and `docs/` files.
 
 Pinball Map is the machine-list source. Pinside remains linked for additional machine information. Past Times notes that games may rotate off the floor for maintenance.
