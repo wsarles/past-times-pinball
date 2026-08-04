@@ -4378,6 +4378,6 @@
   "typeClassification": {
     "emThroughYear": 1974,
     "ssFromYear": 1980,
-    "transitionFile": "data/machine-types.json"
+    "crossoverRulesFile": "data/em-ss-crossover.mjs"
   }
 }
