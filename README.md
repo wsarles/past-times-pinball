@@ -46,6 +46,6 @@ Pinball Map does not provide EM/SS type, so the refresh classifies it locally:
 
 - Machines through 1974 are EM.
 - Machines from 1980 onward are SS.
-- Machines from the 1975–1979 transition period must have an explicit Pinball Map ID entry in `data/machine-types.json`.
+- The 1975–1979 crossover years use a per-year default plus a short Pinball Map ID exception list in `data/em-ss-crossover.mjs`.
 
-A refresh fails rather than guesses when a newly added transition-era machine is missing from that file. Past Times notes that games may rotate off the floor for maintenance.
+The crossover module is intentionally small and commented; it stores only the exceptional machine IDs. Past Times notes that games may rotate off the floor for maintenance.
