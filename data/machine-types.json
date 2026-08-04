@@ -1,7 +1,73 @@
 {
-  "emThroughYear": 1975,
+  "emThroughYear": 1974,
   "ssFromYear": 1980,
   "transitionMachines": [
+    {
+      "pinballMapId": 1387,
+      "name": "300",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1263,
+      "name": "Abra Ca Dabra",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1425,
+      "name": "Atlantis",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 4192,
+      "name": "Black Gold",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 856,
+      "name": "Captain Fantastic and The Brown Dirt Cowboy",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1262,
+      "name": "Criterium 75 (EM)",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2172,
+      "name": "Gold Strike",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2341,
+      "name": "Pin-Up",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3728,
+      "name": "Super Star",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3729,
+      "name": "Tiger",
+      "year": 1975,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 804,
+      "name": "Wizard!",
+      "year": 1975,
+      "type": "EM"
+    },
     {
       "pinballMapId": 864,
       "name": "Buccaneer",
