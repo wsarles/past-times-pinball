@@ -57,6 +57,19 @@ function classifyType(machine) {
   return CROSSOVER_EXCEPTIONS.get(machine.pinballMapId) ?? defaultType;
 }
 
+function machineComments(xref) {
+  const comments = xref.sorted_machine_conditions ?? xref.machine_conditions ?? [];
+
+  return comments
+    .filter((entry) => entry.comment?.trim())
+    .map((entry) => ({
+      comment: entry.comment.trim(),
+      createdAt: entry.created_at,
+      username: entry.username || null,
+    }))
+    .sort((a, b) => Date.parse(b.createdAt) - Date.parse(a.createdAt));
+}
+
 try {
   const [location, machineDetails] = await Promise.all([
     fetchPinballMapJson(LOCATION_API),
@@ -89,6 +102,7 @@ try {
       pinballMapId: machine.pinballMapId,
       opdbId: machine.opdbId,
       ipdbId: machine.ipdbId,
+      comments: machineComments(xref),
     };
   });
 

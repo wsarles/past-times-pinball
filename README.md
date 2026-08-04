@@ -40,7 +40,7 @@ Verify the machine count, then commit the updated `data/games.json` and `docs/` 
 
 ## Machine data and EM/SS classification
 
-The lineup, names, manufacturers, years, dates added, and external database IDs come from the Pinball Map API. Pinside is linked for optional machine information but does not supply site data.
+The lineup, names, manufacturers, years, dates added, condition-comment history, and external database IDs come from the Pinball Map API. Pinside is linked for optional machine information but does not supply site data. The newest comment appears first, with older comments available on demand.
 
 Pinball Map does not provide EM/SS type, so the refresh classifies it locally:
 

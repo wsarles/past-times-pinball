@@ -3,7 +3,12 @@
 import { useEffect, useMemo, useState } from "react";
 import collection from "../data/games.json";
 
-type Game = (typeof collection.games)[number];
+type MachineComment = {
+  comment: string;
+  createdAt: string;
+  username: string | null;
+};
+type Game = (typeof collection.games)[number] & { comments?: MachineComment[] };
 type GameType = "ALL" | "SS" | "EM";
 type PlanView = "ALL" | "MUST_PLAY" | "UNPLAYED";
 type GamePlan = {
@@ -60,6 +65,14 @@ function gameKey(game: Game) {
   return String(game.pinballMapId);
 }
 
+function commentDate(value: string) {
+  return new Date(value).toLocaleDateString("en-US", {
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  });
+}
+
 export function PinballFinder() {
   const [query, setQuery] = useState("");
   const [type, setType] = useState<GameType>("ALL");
@@ -72,6 +85,7 @@ export function PinballFinder() {
   const [planReady, setPlanReady] = useState(false);
   const [planView, setPlanView] = useState<PlanView>("ALL");
   const [expandedGame, setExpandedGame] = useState<string | null>(null);
+  const [fullCommentHistory, setFullCommentHistory] = useState<string | null>(null);
   const [randomGameId, setRandomGameId] = useState<number | null>(null);
 
   useEffect(() => {
@@ -362,6 +376,8 @@ export function PinballFinder() {
             {filteredGames.map((game, index) => {
               const key = gameKey(game);
               const gamePlan = visitPlan[key] ?? {};
+              const comments = game.comments ?? [];
+              const visibleComments = fullCommentHistory === key ? comments : comments.slice(0, 1);
 
               return (
                 <li
@@ -410,15 +426,51 @@ export function PinballFinder() {
                       <button
                         type="button"
                         aria-expanded={expandedGame === key}
-                        onClick={() => setExpandedGame(expandedGame === key ? null : key)}
+                        onClick={() => {
+                          setExpandedGame(expandedGame === key ? null : key);
+                          setFullCommentHistory(null);
+                        }}
                       >
-                        {gamePlan.notes || gamePlan.rating ? "Notes •" : "Notes"}
+                        Details{comments.length ? ` · ${comments.length} comment${comments.length === 1 ? "" : "s"}` : ""}{gamePlan.notes || gamePlan.rating ? " •" : ""}
                       </button>
                     </div>
                   </div>
 
                   {expandedGame === key && (
                     <div className="game-notes-panel">
+                      <section className="condition-comments" aria-labelledby={`comments-${key}`}>
+                        <div className="comments-heading">
+                          <div>
+                            <span>Community condition reports</span>
+                            <h3 id={`comments-${key}`}>Pinball Map comments</h3>
+                          </div>
+                          <a href={collection.source} target="_blank" rel="noreferrer">View on Pinball Map ↗</a>
+                        </div>
+                        {comments.length ? (
+                          <>
+                            <ol>
+                              {visibleComments.map((entry, commentIndex) => (
+                                <li key={`${entry.createdAt}-${commentIndex}`}>
+                                  <p>{entry.comment}</p>
+                                  <small>{entry.username ?? "Pinball Map user"} · {commentDate(entry.createdAt)}</small>
+                                </li>
+                              ))}
+                            </ol>
+                            {comments.length > 1 && (
+                              <button
+                                type="button"
+                                className="comment-history-button"
+                                aria-expanded={fullCommentHistory === key}
+                                onClick={() => setFullCommentHistory(fullCommentHistory === key ? null : key)}
+                              >
+                                {fullCommentHistory === key ? "Show latest only" : `Show ${comments.length - 1} older comment${comments.length === 2 ? "" : "s"}`}
+                              </button>
+                            )}
+                          </>
+                        ) : (
+                          <p className="no-comments">No condition reports have been posted for this machine.</p>
+                        )}
+                      </section>
                       <fieldset>
                         <legend>Your rating</legend>
                         <div className="rating-buttons">

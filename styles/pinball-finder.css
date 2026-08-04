@@ -482,6 +482,28 @@ footer a { color: var(--burgundy); font-weight: 800; }
   border-radius: 3px;
 }
 .game-notes-panel small { color: var(--muted); white-space: nowrap; }
+.condition-comments {
+  grid-column: 1 / -1;
+  padding-bottom: 14px;
+  border-bottom: 1px dashed var(--rule);
+}
+.comments-heading { display: flex; align-items: end; justify-content: space-between; gap: 16px; margin-bottom: 10px; }
+.comments-heading span {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+}
+.comments-heading h3 { margin: 2px 0 0; font-family: Georgia, serif; font-size: 20px; }
+.comments-heading a { color: var(--burgundy); font-size: 12px; font-weight: 800; }
+.condition-comments ol { display: grid; gap: 8px; margin: 0 0 10px; padding: 0; list-style: none; }
+.condition-comments li { padding: 10px 12px; background: rgb(210 165 42 / 10%); border-left: 3px solid var(--mustard); }
+.condition-comments p { margin: 0 0 5px; line-height: 1.45; }
+.condition-comments small { white-space: normal; }
+.condition-comments .comment-history-button { min-height: 32px; padding: 5px 8px; font-size: 11px; }
+.no-comments { color: var(--muted); font-style: italic; }
 
 @media (max-width: 1050px) {
   .filter-grid { grid-template-columns: 1fr 1.4fr 1.5fr; }
@@ -529,6 +551,7 @@ footer a { color: var(--burgundy); font-weight: 800; }
   .game-plan-actions { grid-area: plan; margin: 7px 0 0 34px; padding: 0; }
   .game-notes-panel { grid-template-columns: 1fr; align-items: stretch; gap: 12px; padding: 14px; }
   .game-notes-panel small { white-space: normal; }
+  .comments-heading { align-items: flex-start; flex-direction: column; gap: 6px; }
   .source-banner, .planner-heading, .planner-controls, .random-pick { align-items: flex-start; flex-direction: column; }
   .source-banner span:last-child { white-space: normal; }
   .planner-stats { gap: 10px 16px; }
