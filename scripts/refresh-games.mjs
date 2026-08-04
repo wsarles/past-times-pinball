@@ -5,8 +5,8 @@ const PINBALL_MAP_SOURCE = `https://pinballmap.com/youngstown/?by_location_id=${
 const LOCATION_API = `https://pinballmap.com/api/v1/locations/${LOCATION_ID}.json`;
 const MACHINE_DETAILS_API = `https://pinballmap.com/api/v1/locations/${LOCATION_ID}/machine_details.json`;
 const PINSIDE_SOURCE = "https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/";
-const OPDB_TYPEAHEAD = "https://opdb.org/api/search/typeahead";
 const OUTPUT = new URL("../data/games.json", import.meta.url);
+const TYPE_RULES_FILE = new URL("../data/machine-types.json", import.meta.url);
 const PINBALL_MAP_API_TOKEN = process.env.PINBALL_MAP_API_TOKEN?.trim();
 
 function easternDate() {
@@ -20,101 +20,103 @@ function easternDate() {
   return `${value.year}-${value.month}-${value.day}`;
 }
 
-function normalizeName(name) {
-  return name
-    .toLocaleLowerCase()
-    .normalize("NFKD")
-    .replace(/^the\s+|,\s+the$/g, "")
-    .replace(/collector'?s edition/g, "ce")
-    .replace(/limited (?:rhapsody )?edition|limited version/g, "le")
-    .replace(/premium edition/g, "premium")
-    .replace(/special edition/g, "se")
-    .replace(/[^a-z0-9]+/g, " ")
-    .trim();
-}
-
-async function fetchJson(url, { requiresPinballMapToken = false } = {}) {
-  const requestUrl = new URL(url);
-
-  if (requiresPinballMapToken) {
-    if (!PINBALL_MAP_API_TOKEN) {
-      throw new Error(
-        "PINBALL_MAP_API_TOKEN is required. Add it to your environment or GitHub Actions secrets.",
-      );
-    }
-    requestUrl.searchParams.set("api_token", PINBALL_MAP_API_TOKEN);
+async function fetchPinballMapJson(url) {
+  if (!PINBALL_MAP_API_TOKEN) {
+    throw new Error(
+      "PINBALL_MAP_API_TOKEN is required. Add it to your environment or GitHub Actions secrets.",
+    );
   }
+
+  const requestUrl = new URL(url);
+  requestUrl.searchParams.set("api_token", PINBALL_MAP_API_TOKEN);
 
   const response = await fetch(requestUrl, {
     headers: {
       accept: "application/json",
-      "user-agent": "Past-Times-Pinball-Finder/2.0",
+      "user-agent": "Past-Times-Pinball-Finder/3.0",
     },
   });
   if (!response.ok) throw new Error(`${url} returned ${response.status}`);
   return response.json();
 }
 
-async function readExistingCollection() {
-  try {
-    return JSON.parse(await readFile(OUTPUT, "utf8"));
-  } catch {
-    return { games: [] };
+async function readTypeRules() {
+  const rules = JSON.parse(await readFile(TYPE_RULES_FILE, "utf8"));
+
+  if (
+    !Number.isInteger(rules.emThroughYear) ||
+    !Number.isInteger(rules.ssFromYear) ||
+    rules.emThroughYear + 1 >= rules.ssFromYear ||
+    !Array.isArray(rules.transitionMachines)
+  ) {
+    throw new Error("data/machine-types.json has invalid cutoff years or transitionMachines.");
   }
+
+  return rules;
 }
 
-async function lookupType(machine) {
-  const url = new URL(OPDB_TYPEAHEAD);
-  url.searchParams.set("q", machine.name);
-  const results = await fetchJson(url);
-  const exact = results.find((result) => result.id === machine.opdbId);
-  if (exact?.display) return ["lights", "reels"].includes(exact.display) ? "EM" : "SS";
+function buildTransitionTypeMap(rules) {
+  const transitionById = new Map();
 
-  if (/\(EM\)/i.test(machine.name) || machine.year < 1977) return "EM";
-  return "SS";
-}
-
-async function mapWithConcurrency(items, concurrency, callback) {
-  const results = new Array(items.length);
-  let nextIndex = 0;
-
-  async function worker() {
-    while (nextIndex < items.length) {
-      const index = nextIndex;
-      nextIndex += 1;
-      results[index] = await callback(items[index], index);
+  for (const entry of rules.transitionMachines) {
+    if (
+      !Number.isInteger(entry.pinballMapId) ||
+      !Number.isInteger(entry.year) ||
+      typeof entry.name !== "string" ||
+      !["EM", "SS"].includes(entry.type)
+    ) {
+      throw new Error("data/machine-types.json contains an invalid transition machine.");
     }
+    if (entry.year <= rules.emThroughYear || entry.year >= rules.ssFromYear) {
+      throw new Error(
+        `${entry.name} (${entry.year}) is outside the transition-year range in data/machine-types.json.`,
+      );
+    }
+    if (transitionById.has(entry.pinballMapId)) {
+      throw new Error(
+        `Pinball Map machine ${entry.pinballMapId} is duplicated in data/machine-types.json.`,
+      );
+    }
+    transitionById.set(entry.pinballMapId, entry);
   }
 
-  await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, worker));
-  return results;
+  return transitionById;
+}
+
+function classifyType(machine, rules, transitionById) {
+  if (machine.year <= rules.emThroughYear) return "EM";
+  if (machine.year >= rules.ssFromYear) return "SS";
+
+  const entry = transitionById.get(machine.pinballMapId);
+  if (!entry) {
+    throw new Error(
+      `No EM/SS classification for ${machine.name} (${machine.year}, Pinball Map ID ${machine.pinballMapId}). Add it to data/machine-types.json.`,
+    );
+  }
+  if (entry.name !== machine.name || entry.year !== machine.year) {
+    throw new Error(
+      `The classification for Pinball Map ID ${machine.pinballMapId} is stale. Expected ${entry.name} (${entry.year}) but received ${machine.name} (${machine.year}).`,
+    );
+  }
+
+  return entry.type;
 }
 
 try {
-  const [existing, location, machineDetails] = await Promise.all([
-    readExistingCollection(),
-    fetchJson(LOCATION_API, { requiresPinballMapToken: true }),
-    fetchJson(MACHINE_DETAILS_API, { requiresPinballMapToken: true }),
+  const [location, machineDetails, typeRules] = await Promise.all([
+    fetchPinballMapJson(LOCATION_API),
+    fetchPinballMapJson(MACHINE_DETAILS_API),
+    readTypeRules(),
   ]);
 
-  const existingById = new Map(
-    existing.games
-      .filter((game) => game.pinballMapId)
-      .map((game) => [game.pinballMapId, game]),
-  );
-  const existingByNameAndYear = new Map(
-    existing.games.map((game) => [`${normalizeName(game.name)}\u0001${game.year}`, game]),
-  );
   const detailsById = new Map(machineDetails.machines.map((machine) => [machine.id, machine]));
+  const transitionById = buildTransitionTypeMap(typeRules);
   const activeMachines = location.location_machine_xrefs.filter((xref) => !xref.deleted_at);
 
-  const games = await mapWithConcurrency(activeMachines, 8, async (xref) => {
+  const games = activeMachines.map((xref) => {
     const details = detailsById.get(xref.machine_id);
     if (!details) throw new Error(`Missing machine details for Pinball Map machine ${xref.machine_id}`);
 
-    const prior =
-      existingById.get(xref.machine_id) ??
-      existingByNameAndYear.get(`${normalizeName(details.name)}\u0001${details.year}`);
     const machine = {
       name: details.name,
       manufacturer: details.manufacturer,
@@ -127,7 +129,7 @@ try {
 
     return {
       name: machine.name,
-      type: prior?.type ?? await lookupType(machine),
+      type: classifyType(machine, typeRules, transitionById),
       manufacturer: machine.manufacturer,
       year: machine.year,
       added: machine.added,
@@ -147,6 +149,11 @@ try {
     pinsideSource: PINSIDE_SOURCE,
     sourceUpdated: location.date_last_updated,
     refreshedAt: easternDate(),
+    typeClassification: {
+      emThroughYear: typeRules.emThroughYear,
+      ssFromYear: typeRules.ssFromYear,
+      transitionFile: "data/machine-types.json",
+    },
     games,
   };
 
