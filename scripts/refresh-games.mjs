@@ -7,6 +7,7 @@ const MACHINE_DETAILS_API = `https://pinballmap.com/api/v1/locations/${LOCATION_
 const PINSIDE_SOURCE = "https://pinside.com/pinball/map/where-to-play/17578-past-times-arcade-girard-oh/";
 const OPDB_TYPEAHEAD = "https://opdb.org/api/search/typeahead";
 const OUTPUT = new URL("../data/games.json", import.meta.url);
+const PINBALL_MAP_API_TOKEN = process.env.PINBALL_MAP_API_TOKEN?.trim();
 
 function easternDate() {
   const parts = new Intl.DateTimeFormat("en-US", {
@@ -32,8 +33,19 @@ function normalizeName(name) {
     .trim();
 }
 
-async function fetchJson(url) {
-  const response = await fetch(url, {
+async function fetchJson(url, { requiresPinballMapToken = false } = {}) {
+  const requestUrl = new URL(url);
+
+  if (requiresPinballMapToken) {
+    if (!PINBALL_MAP_API_TOKEN) {
+      throw new Error(
+        "PINBALL_MAP_API_TOKEN is required. Add it to your environment or GitHub Actions secrets.",
+      );
+    }
+    requestUrl.searchParams.set("api_token", PINBALL_MAP_API_TOKEN);
+  }
+
+  const response = await fetch(requestUrl, {
     headers: {
       accept: "application/json",
       "user-agent": "Past-Times-Pinball-Finder/2.0",
@@ -81,8 +93,8 @@ async function mapWithConcurrency(items, concurrency, callback) {
 try {
   const [existing, location, machineDetails] = await Promise.all([
     readExistingCollection(),
-    fetchJson(LOCATION_API),
-    fetchJson(MACHINE_DETAILS_API),
+    fetchJson(LOCATION_API, { requiresPinballMapToken: true }),
+    fetchJson(MACHINE_DETAILS_API, { requiresPinballMapToken: true }),
   ]);
 
   const existingById = new Map(
