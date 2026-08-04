@@ -38,4 +38,14 @@ npm run build:pages
 
 Verify the machine count, then commit the updated `data/games.json` and `docs/` files.
 
-Pinball Map is the machine-list source. Pinside remains linked for additional machine information. Past Times notes that games may rotate off the floor for maintenance.
+## Machine data and EM/SS classification
+
+The lineup, names, manufacturers, years, dates added, and external database IDs come from the Pinball Map API. Pinside is linked for optional machine information but does not supply site data.
+
+Pinball Map does not provide EM/SS type, so the refresh classifies it locally:
+
+- Machines through 1975 are EM.
+- Machines from 1980 onward are SS.
+- Machines from the 1976–1979 transition period must have an explicit Pinball Map ID entry in `data/machine-types.json`.
+
+A refresh fails rather than guesses when a newly added transition-era machine is missing from that file. Past Times notes that games may rotate off the floor for maintenance.
