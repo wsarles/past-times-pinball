@@ -1,0 +1,420 @@
+{
+  "emThroughYear": 1975,
+  "ssFromYear": 1980,
+  "transitionMachines": [
+    {
+      "pinballMapId": 864,
+      "name": "Buccaneer",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2776,
+      "name": "Cinema",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3707,
+      "name": "Explorer",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1173,
+      "name": "Faces",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 793,
+      "name": "Grand Prix",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 928,
+      "name": "Hang Glider",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1289,
+      "name": "New York",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 987,
+      "name": "Night Rider (EM)",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 822,
+      "name": "Royal Flush",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3825,
+      "name": "Royal King",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3723,
+      "name": "Screech",
+      "year": 1976,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 2033,
+      "name": "Ship Ahoy",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3330,
+      "name": "Slap Stick",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 791,
+      "name": "Space Mission",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 805,
+      "name": "Sure Shot",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1050,
+      "name": "The Atarians",
+      "year": 1976,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 3781,
+      "name": "The Shark",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3619,
+      "name": "Underwater",
+      "year": 1976,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3146,
+      "name": "Airborne Avenger",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 2284,
+      "name": "Bronco",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2233,
+      "name": "Butterfly",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1674,
+      "name": "Centigrade 37",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2624,
+      "name": "Dragon",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 900,
+      "name": "Eight Ball",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 783,
+      "name": "Evel Knievel",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1397,
+      "name": "Golden Arrow",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 3684,
+      "name": "Hot Tip (EM)",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2840,
+      "name": "Jacks Open",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 800,
+      "name": "Jet Spin",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 876,
+      "name": "Jungle Queen",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 778,
+      "name": "Lost World",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 2344,
+      "name": "Lucky Hand",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2994,
+      "name": "Mata Hari (EM)",
+      "year": 1977,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 847,
+      "name": "Strikes and Spares",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 786,
+      "name": "The Incredible Hulk",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 2711,
+      "name": "Time 2000",
+      "year": 1977,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 980,
+      "name": "Close Encounters of the Third Kind",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 809,
+      "name": "Dolly Parton",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 4297,
+      "name": "FJ",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 2629,
+      "name": "Gemini",
+      "year": 1978,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 834,
+      "name": "Harlem Globetrotters On Tour",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1039,
+      "name": "Hit the Deck",
+      "year": 1978,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 2620,
+      "name": "House of Diamonds",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 785,
+      "name": "Kiss",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1362,
+      "name": "Middle Earth",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 825,
+      "name": "Nugent",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 4358,
+      "name": "Orbit 1",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 766,
+      "name": "Playboy",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 3726,
+      "name": "Ski Jump (EM)",
+      "year": 1978,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1418,
+      "name": "Space Riders",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 855,
+      "name": "Stars",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 2386,
+      "name": "Strange World",
+      "year": 1978,
+      "type": "EM"
+    },
+    {
+      "pinballMapId": 1998,
+      "name": "World Cup",
+      "year": 1978,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 3319,
+      "name": "Cosmic Princess",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 867,
+      "name": "Dracula",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 875,
+      "name": "Flash",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 902,
+      "name": "Gorgar",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1195,
+      "name": "Hercules",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1868,
+      "name": "Hotdoggin'",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1056,
+      "name": "Laser Ball",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 851,
+      "name": "Meteor",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 897,
+      "name": "Paragon",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1381,
+      "name": "Solar Ride",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 907,
+      "name": "Star Trek",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1057,
+      "name": "Stellar Wars",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 978,
+      "name": "Superman",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 967,
+      "name": "Supersonic",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1049,
+      "name": "Time Warp",
+      "year": 1979,
+      "type": "SS"
+    },
+    {
+      "pinballMapId": 1305,
+      "name": "Viking",
+      "year": 1979,
+      "type": "SS"
+    }
+  ]
+}
