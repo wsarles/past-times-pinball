@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#071521" />
+  <title>My Jaws Scores</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <p class="eyebrow">STERN PINBALL • JAWS</p>
+      <h1>My Top 10 Scores</h1>
+      <p class="tagline">You’re gonna need a higher score.</p>
+    </header>
+
+    <section class="summary" aria-label="Score summary">
+      <article><span>Personal best</span><strong id="personal-best">—</strong></article>
+      <article><span>Games tracked</span><strong id="games-tracked">—</strong></article>
+      <article><span>Last updated</span><strong id="last-updated">—</strong></article>
+    </section>
+
+    <section class="card">
+      <div class="card-heading">
+        <div>
+          <p class="eyebrow">LEADERBOARD</p>
+          <h2>Highest scores</h2>
+        </div>
+        <button id="refresh" type="button">Refresh</button>
+      </div>
+      <ol id="scores" class="scores" aria-live="polite"></ol>
+      <p id="empty-state" class="empty" hidden>No scores yet. Add them to <code>docs/jaws/scores.json</code>.</p>
+    </section>
+
+    <footer>
+      <p>Score data is loaded from <code>scores.json</code>. Stern Insider Connected sync can replace that file later without changing this page.</p>
+    </footer>
+  </main>
+  <script src="./app.js" type="module"></script>
+</body>
+</html>
