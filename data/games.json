@@ -596,7 +596,7 @@
     },
     {
       "name": "Can Can",
-      "type": "SS",
+      "type": "EM",
       "manufacturer": "Williams",
       "year": 1955,
       "added": "2025-11-28",
@@ -826,7 +826,7 @@
     },
     {
       "name": "Daisy May",
-      "type": "SS",
+      "type": "EM",
       "manufacturer": "Gottlieb",
       "year": 1954,
       "added": "2025-04-29",
@@ -3136,7 +3136,7 @@
     },
     {
       "name": "Show Boat",
-      "type": "SS",
+      "type": "EM",
       "manufacturer": "Genco",
       "year": 1957,
       "added": "2025-04-17",
@@ -3376,7 +3376,7 @@
     },
     {
       "name": "Speed Way",
-      "type": "SS",
+      "type": "EM",
       "manufacturer": "Williams",
       "year": 1948,
       "added": "2025-06-10",
@@ -3926,7 +3926,7 @@
     },
     {
       "name": "Thing",
-      "type": "SS",
+      "type": "EM",
       "manufacturer": "Chicago Coin",
       "year": 1951,
       "added": "2025-04-11",
@@ -4374,5 +4374,10 @@
       "opdbId": "G5z71-MBRXz",
       "ipdbId": 3531
     }
-  ]
+  ],
+  "typeClassification": {
+    "emThroughYear": 1975,
+    "ssFromYear": 1980,
+    "transitionFile": "data/machine-types.json"
+  }
 }
