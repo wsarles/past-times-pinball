@@ -5,6 +5,14 @@ import collection from "../data/games.json";
 
 type Game = (typeof collection.games)[number];
 type GameType = "ALL" | "SS" | "EM";
+type PlanView = "ALL" | "MUST_PLAY" | "UNPLAYED";
+type GamePlan = {
+  mustPlay?: boolean;
+  played?: boolean;
+  rating?: number;
+  notes?: string;
+};
+type VisitPlan = Record<string, GamePlan>;
 type SortKey =
   | "name-asc"
   | "name-desc"
@@ -16,6 +24,7 @@ type SortKey =
   | "type-desc";
 
 const games = collection.games as Game[];
+const STORAGE_KEY = "past-times-pinball-visit-plan-v1";
 const firstYear = Math.min(...games.map((game) => game.year));
 const lastYear = Math.max(...games.map((game) => game.year));
 const manufacturers = [...new Set(games.map((game) => game.manufacturer))].sort((a, b) =>
@@ -47,6 +56,10 @@ function pinsideMachineUrl(game: Game) {
   return `https://pinside.com/pinball/machine/?query=${encodeURIComponent(game.name)}`;
 }
 
+function gameKey(game: Game) {
+  return String(game.pinballMapId);
+}
+
 export function PinballFinder() {
   const [query, setQuery] = useState("");
   const [type, setType] = useState<GameType>("ALL");
@@ -55,6 +68,11 @@ export function PinballFinder() {
   const [throughYear, setThroughYear] = useState("");
   const [sort, setSort] = useState<SortKey>("name-asc");
   const [offlineReady, setOfflineReady] = useState(false);
+  const [visitPlan, setVisitPlan] = useState<VisitPlan>({});
+  const [planReady, setPlanReady] = useState(false);
+  const [planView, setPlanView] = useState<PlanView>("ALL");
+  const [expandedGame, setExpandedGame] = useState<string | null>(null);
+  const [randomGameId, setRandomGameId] = useState<number | null>(null);
 
   useEffect(() => {
     if (!("serviceWorker" in navigator)) return;
@@ -64,6 +82,21 @@ export function PinballFinder() {
       .catch(() => setOfflineReady(false));
   }, []);
 
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem(STORAGE_KEY);
+      if (saved) setVisitPlan(JSON.parse(saved) as VisitPlan);
+    } catch {
+      localStorage.removeItem(STORAGE_KEY);
+    } finally {
+      setPlanReady(true);
+    }
+  }, []);
+
+  useEffect(() => {
+    if (planReady) localStorage.setItem(STORAGE_KEY, JSON.stringify(visitPlan));
+  }, [planReady, visitPlan]);
+
   const lowerYear = fromYear ? Number(fromYear) : null;
   const upperYear = throughYear ? Number(throughYear) : null;
   const invalidRange = lowerYear !== null && upperYear !== null && lowerYear > upperYear;
@@ -72,12 +105,15 @@ export function PinballFinder() {
     const needle = query.trim().toLocaleLowerCase();
     const visible = games.filter((game) => {
       const searchable = `${game.name} ${displayName(game.name)} ${game.manufacturer} ${game.year} ${game.type}`.toLocaleLowerCase();
+      const plan = visitPlan[gameKey(game)];
       return (
         (!needle || searchable.includes(needle)) &&
         (type === "ALL" || game.type === type) &&
         (manufacturer === "ALL" || game.manufacturer === manufacturer) &&
         (lowerYear === null || game.year >= lowerYear) &&
         (upperYear === null || game.year <= upperYear) &&
+        (planView !== "MUST_PLAY" || plan?.mustPlay) &&
+        (planView !== "UNPLAYED" || !plan?.played) &&
         !invalidRange
       );
     });
@@ -102,9 +138,16 @@ export function PinballFinder() {
           return compareText(displayName(a.name), displayName(b.name));
       }
     });
-  }, [query, type, manufacturer, lowerYear, upperYear, invalidRange, sort]);
+  }, [query, type, manufacturer, lowerYear, upperYear, invalidRange, sort, planView, visitPlan]);
 
-  const hasFilters = Boolean(query || type !== "ALL" || manufacturer !== "ALL" || fromYear || throughYear);
+  const mustPlayCount = games.filter((game) => visitPlan[gameKey(game)]?.mustPlay).length;
+  const playedCount = games.filter((game) => visitPlan[gameKey(game)]?.played).length;
+  const ratedCount = games.filter((game) => visitPlan[gameKey(game)]?.rating).length;
+  const randomGame = games.find((game) => game.pinballMapId === randomGameId) ?? null;
+
+  const hasFilters = Boolean(
+    query || type !== "ALL" || manufacturer !== "ALL" || fromYear || throughYear || planView !== "ALL",
+  );
 
   function clearFilters() {
     setQuery("");
@@ -112,6 +155,27 @@ export function PinballFinder() {
     setManufacturer("ALL");
     setFromYear("");
     setThroughYear("");
+    setPlanView("ALL");
+  }
+
+  function updateGamePlan(game: Game, patch: Partial<GamePlan>) {
+    const key = gameKey(game);
+    setVisitPlan((current) => ({ ...current, [key]: { ...current[key], ...patch } }));
+  }
+
+  function pickNextGame() {
+    const unplayed = filteredGames.filter((game) => !visitPlan[gameKey(game)]?.played);
+    const queued = unplayed.filter((game) => visitPlan[gameKey(game)]?.mustPlay);
+    const candidates = queued.length ? queued : unplayed;
+    if (!candidates.length) {
+      setRandomGameId(null);
+      return;
+    }
+    const alternatives = candidates.length > 1
+      ? candidates.filter((game) => game.pinballMapId !== randomGameId)
+      : candidates;
+    const selected = alternatives[Math.floor(Math.random() * alternatives.length)];
+    setRandomGameId(selected.pinballMapId);
   }
 
   function toggleColumn(field: "name" | "manufacturer" | "year" | "type") {
@@ -155,6 +219,66 @@ export function PinballFinder() {
             </nav>
           </div>
         </header>
+
+        <a className="source-banner" href={collection.source} target="_blank" rel="noreferrer">
+          <span><strong>Machine lineup powered by Pinball Map</strong> · Community-maintained location data</span>
+          <span>View Past Times on Pinball Map ↗</span>
+        </a>
+
+        <section className="visit-planner" aria-labelledby="visit-planner-heading">
+          <div className="planner-heading">
+            <div>
+              <p className="eyebrow">Saved only on this device</p>
+              <h2 id="visit-planner-heading">Plan your visit</h2>
+            </div>
+            <div className="planner-stats" aria-live="polite">
+              <span><strong>{mustPlayCount}</strong> must-play</span>
+              <span><strong>{playedCount}</strong> played</span>
+              <span><strong>{ratedCount}</strong> rated</span>
+            </div>
+          </div>
+
+          <div className="planner-controls">
+            <div className="planner-views" aria-label="Visit plan view">
+              {([
+                ["ALL", "All machines"],
+                ["MUST_PLAY", "Must-play queue"],
+                ["UNPLAYED", "Unplayed"],
+              ] as [PlanView, string][]).map(([value, label]) => (
+                <button
+                  key={value}
+                  type="button"
+                  className={planView === value ? "active" : ""}
+                  aria-pressed={planView === value}
+                  onClick={() => setPlanView(value)}
+                >
+                  {label}
+                </button>
+              ))}
+            </div>
+            <button className="random-button" type="button" onClick={pickNextGame}>
+              Pick my next game
+            </button>
+          </div>
+
+          {randomGame && (
+            <div className="random-pick" role="status">
+              <span className="starburst" aria-hidden="true">✷</span>
+              <div>
+                <small>Your next game</small>
+                <strong>{displayName(randomGame.name)}</strong>
+                <span>{randomGame.manufacturer} · {randomGame.year} · {randomGame.type}</span>
+              </div>
+              <button
+                type="button"
+                onClick={() => updateGamePlan(randomGame, { played: true })}
+                disabled={visitPlan[gameKey(randomGame)]?.played}
+              >
+                {visitPlan[gameKey(randomGame)]?.played ? "Played" : "Mark played"}
+              </button>
+            </div>
+          )}
+        </section>
 
         <section className="search-section" aria-label="Search and filter games">
           <label className="search-box">
@@ -231,28 +355,103 @@ export function PinballFinder() {
             <button type="button" onClick={() => toggleColumn("manufacturer")}>Manufacturer</button>
             <button type="button" onClick={() => toggleColumn("year")}>Year</button>
             <button type="button" onClick={() => toggleColumn("type")}>Type</button>
+            <span>Visit plan</span>
           </div>
 
           <ol className="game-list">
-            {filteredGames.map((game, index) => (
-              <li className="game-row" key={`${game.name}-${game.manufacturer}-${game.year}-${game.type}`}>
-                <span className="row-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
-                <span className="row-star" aria-hidden="true">✷</span>
-                <strong className="game-name">
-                  <a
-                    href={pinsideMachineUrl(game)}
-                    target="_blank"
-                    rel="noreferrer"
-                    aria-label={`View ${displayName(game.name)} on Pinside`}
-                  >
-                    {displayName(game.name)} <span aria-hidden="true">↗</span>
-                  </a>
-                </strong>
-                <span className="game-maker">{game.manufacturer}</span>
-                <span className="game-year">{game.year}</span>
-                <span className={`type-badge ${game.type.toLowerCase()}`}>{game.type}</span>
-              </li>
-            ))}
+            {filteredGames.map((game, index) => {
+              const key = gameKey(game);
+              const gamePlan = visitPlan[key] ?? {};
+
+              return (
+                <li
+                  id={"game-" + game.pinballMapId}
+                  className={[
+                    "game-item",
+                    gamePlan.played ? "played" : "",
+                    gamePlan.mustPlay ? "must-play" : "",
+                  ].filter(Boolean).join(" ")}
+                  key={key}
+                >
+                  <div className="game-row">
+                    <span className="row-number" aria-hidden="true">{String(index + 1).padStart(2, "0")}</span>
+                    <span className="row-star" aria-hidden="true">✷</span>
+                    <strong className="game-name">
+                      <a
+                        href={pinsideMachineUrl(game)}
+                        target="_blank"
+                        rel="noreferrer"
+                        aria-label={"View " + displayName(game.name) + " on Pinside"}
+                      >
+                        {displayName(game.name)} <span aria-hidden="true">↗</span>
+                      </a>
+                    </strong>
+                    <span className="game-maker">{game.manufacturer}</span>
+                    <span className="game-year">{game.year}</span>
+                    <span className={"type-badge " + game.type.toLowerCase()}>{game.type}</span>
+                    <div className="game-plan-actions">
+                      <button
+                        type="button"
+                        className={gamePlan.mustPlay ? "active" : ""}
+                        aria-pressed={Boolean(gamePlan.mustPlay)}
+                        aria-label={(gamePlan.mustPlay ? "Remove " : "Add ") + displayName(game.name) + (gamePlan.mustPlay ? " from" : " to") + " must-play queue"}
+                        onClick={() => updateGamePlan(game, { mustPlay: !gamePlan.mustPlay })}
+                      >
+                        {gamePlan.mustPlay ? "★ Must-play" : "☆ Must-play"}
+                      </button>
+                      <button
+                        type="button"
+                        className={gamePlan.played ? "active" : ""}
+                        aria-pressed={Boolean(gamePlan.played)}
+                        onClick={() => updateGamePlan(game, { played: !gamePlan.played })}
+                      >
+                        {gamePlan.played ? "✓ Played" : "Mark played"}
+                      </button>
+                      <button
+                        type="button"
+                        aria-expanded={expandedGame === key}
+                        onClick={() => setExpandedGame(expandedGame === key ? null : key)}
+                      >
+                        {gamePlan.notes || gamePlan.rating ? "Notes •" : "Notes"}
+                      </button>
+                    </div>
+                  </div>
+
+                  {expandedGame === key && (
+                    <div className="game-notes-panel">
+                      <fieldset>
+                        <legend>Your rating</legend>
+                        <div className="rating-buttons">
+                          {[1, 2, 3, 4, 5].map((rating) => (
+                            <button
+                              key={rating}
+                              type="button"
+                              className={gamePlan.rating === rating ? "active" : ""}
+                              aria-label={"Rate " + displayName(game.name) + " " + rating + " out of 5"}
+                              aria-pressed={gamePlan.rating === rating}
+                              onClick={() => updateGamePlan(game, {
+                                rating: gamePlan.rating === rating ? undefined : rating,
+                              })}
+                            >
+                              ★
+                            </button>
+                          ))}
+                        </div>
+                      </fieldset>
+                      <label>
+                        <span>Private notes</span>
+                        <textarea
+                          value={gamePlan.notes ?? ""}
+                          placeholder="What stood out? What should you try next game?"
+                          onChange={(event) => updateGamePlan(game, { notes: event.target.value })}
+                        />
+                      </label>
+                      <small>Saved only in this browser.</small>
+                    </div>
+                  )}
+                </li>
+              );
+            })}
           </ol>
 
           {!filteredGames.length && (
